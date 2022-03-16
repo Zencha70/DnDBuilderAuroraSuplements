@@ -3,10 +3,10 @@
 	<info>
 		<name>Your Content</name>
 		<update version="1.0.1">
-			<file name="Zencha70.index" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/master/Zencha70.index" />
+			<file name="Zencha70.index" url="https://github.com/Zencha70/DnDBuilderAuroraSuplements/blob/main/Zencha70.index" />
 		</update>
 	</info>
 	<files>
-		<file name="mindflayer's-scourger4.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/master/Zencha70/mindflayer's-scourger4.xml" />
+		<file name="mindflayer's-scourger4.xml" url="https://github.com/Zencha70/DnDBuilderAuroraSuplements/blob/main/Zencha70/mindflayer's-scourger4.xml" />
 	</files>
 </index>
