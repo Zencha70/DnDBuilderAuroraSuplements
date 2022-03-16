@@ -1,7 +1,7 @@
 # DnDBuilder-Aurora-Suplements
 additional content to extend [Aurora](https://aurorabuilder.com/), by Zencha70
 
-index url: https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/master/Zencha70.index
+index url: https://github.com/Zencha70/DnDBuilderAuroraSuplements/blob/main/Zencha70.index
 
 ---
 
