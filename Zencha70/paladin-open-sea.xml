@@ -88,7 +88,7 @@
 		<description>
 			<p>As a bonus action, you channel the powerful might of the waves to bolster your attacks for 1 minute. Once per turn for the duration, when you hit a creature with a weapon attack, you can choose to push the target 10 feet away from you. If pushed into an obstacle or another creature, the target takes bludgeoning damage equal to your Charisma modifier.</p>
 		</description>
-		<sheet alt="Inspiring Smite" action="Bonus Action" usage="Channel Divinity">
+		<sheet alt="Fury of the Tides" action="Bonus Action" usage="Channel Divinity">
 			<description>Once per turn for the next 1 minute, when you hit a creature with a weapon attack, you can push the target 10 feet away from you. If pushed into an obstacle or another creature, the target takes bludgeoning 1 damage </description>
 		</sheet>
 	</element>
