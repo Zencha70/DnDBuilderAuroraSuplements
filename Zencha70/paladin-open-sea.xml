@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Oath of the Open Sea</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="paladin-open-sea.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/paladin-open-sea.xml" />
 		</update>
 	</info>
