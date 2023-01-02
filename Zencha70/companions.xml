@@ -4,7 +4,7 @@
 		<name>Companions</name>
 		<description>Companion creature from Storm King's Thunder.</description>
 		<author url="https://dnd.wizards.com/products/storm-kings-thunder">Wizards of the Coast</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="companions.xml" url="https://github.com/Zencha70/DnDBuilderAuroraSuplements/blob/main/Zencha70/companions.xml" />
 		</update>
 	</info>
