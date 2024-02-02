@@ -8,7 +8,16 @@
 			<file name="potb-boon.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/potb-boon.xml" />
 		</update>
 	</info>
-
+	<element name="Pact Boon" type="Feat" source="Custom Features" id="ID_WOTC_CUS_FEAT__PACT_BOON">
+		<description>
+			<p>At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.</p>
+			<h5 class="caption">PACT OF THE BLADE</h5>			
+			<p>You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
+			<p class="indent">Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.</p>
+			<p class="indent">You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can’t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</p>
+		</description>
+		<sheet display="false" />
+	</element>
 	<element name="Pact Boon" type="Feat" source="Custom Features" id="ID_WOTC_CUS_FEAT__PACT_BOON">
 		<description>
 			<h5 class="caption">PACT OF THE BLADE</h5>			
