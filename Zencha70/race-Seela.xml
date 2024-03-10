@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Seela</name>
+		<update version="0.0.2">
+			<file name="race-Seela.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/wild-beyond-the-witchlight/race-Seela.xml" />
+		</update>
+	</info>
+	<element name="Seela" type="Race" source="War of the Burning Sun" id="ID_WOTC_WBW_RACE_Seela">
+		<description>
+			<p>Seela are a fey race native to the forest of Innenotdar who have a great affinity with song and wind. Before their forest was set to flame, they served as messengers of the woods, singing news on the wind. Their original vibrant beauty has changed to match the dying conditions of their homeland. They have wings reminiscent of a dragonfly's, or of leaves that got too close to an open flame. Their flesh is naturally pale and sunken, and they look perpetually starving and rather eerie. The seela have suffered years of torment, and thus are physically fragile but spiritually strong.</p>
+			<h4>Seela TRAITS</h4>
+			<p>As a Seela, you have the following racial traits.</p>
+			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Fey.</p>
+			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Seela Magic.</em></strong> You know the <i>minor illusion</i> cantrip but you can only use it to produce sounds. You also know the </i>message</i> cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> Your fey nature grants you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray. </p>
+			<p class="indent"><strong><em>Fey Ancestry.</em></strong> You have advantage on saving throws you make to avoid or end the charmed condition on yourself, and magic can't put you to sleep. </p>			
+			<p class="indent"><strong><em>Tradition of Song.</em></strong> You have proficiency in the Performance skill. You also know the Song of Forms</p>
+			<p class="indent"><strong><em>Gliding.</em></strong> Your wings allow you to descend safely. While you are not incapacitated or prone, you subtract 20 feet from the distance fallen for the purposes of calculating falling damage.</p>
+			<p class="indent"><strong><em>Fallow Touch.</em></strong> You sap life with the touch of your bare flesh. Your unarmed strikes deal an additional 1 point of necrotic damage. A creature that grapples or is grappled by you takes 1d6 necrotic damage at the start of each of their turns.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Racial Trait" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_FEY" />
+			<grant type="Racial Trait" id="ID_INTERNAL_RACIAL_TRAIT_MEDIUM" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<select type="Ability Score Improvement" name="Ability Score Improvement Option (Seela)" supports="Custom Ability Score Improvement Option" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_WOTC_AAG_RACIAL_TRAIT_SEELA_FEY_ANCESTRY" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_SYLVAN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_ELVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_WOTC_WBW_RACIAL_TRAIT_SEELA_GLIDING" />
+			<grant type="Racial Trait" id="ID_WOTC_WBW_RACIAL_TRAIT_SEELA_SEELA_MAGIC" />
+			<grant type="Racial Trait" id="ID_WOTC_WBW_RACIAL_TRAIT_SEELA_FALLOW_TOUCH" />		
+			<grant type="Racial Trait" id="ID_WOTC_WBW_RACIAL_TRAIT_SEELA_TRADITION_OF_SONG" /> 
+		</rules>
+	</element>
+	<element name="Gliding" type="Racial Trait" source="War of the Burning Sun" id="ID_WOTC_WBW_RACIAL_TRAIT_SEELA_GLIDING">
+		<description>
+			<p>Your wings allow you to descend safely. While you are not incapacitated or prone, you subtract 20 feet from the distance fallen for the purposes of calculating falling damage.</p>
+		</description>
+		<sheet>
+			<description>Your wings allow you to descend safely. While you are not incapacitated or prone, you subtract 20 feet from the distance fallen for the purposes of calculating falling damage.</description>
+		</sheet>
+	</element>
+	<element name="Seela Magic" type="Racial Trait" source="War of the Burning Sun" id="ID_WOTC_WBW_RACIAL_TRAIT_SEELA_SEELA_MAGIC">
+		<description>
+			<p>You know the <i>minor illusion</i> cantrip but can only produce sounds with it. You also know he </i>message</i> cantrip.</p> 
+			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MESSAGE" />
+			<grant type="Spell" id="ID_PHB_SPELL_MINOR_ILLUSION" />
+			<select type="Racial Trait" name="Spellcasting Ability (Seela Magic)" supports="ID_WOTC_WBW_RACIAL_TRAIT_SEELA_SEELA_MAGIC_INTELLIGENCE|ID_WOTC_WBW_RACIAL_TRAIT_SEELA_SEELA_MAGIC_WISDOM|ID_WOTC_WBW_RACIAL_TRAIT_SEELA_SEELA_MAGIC_CHARISMA" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Racial Trait" source="War of the Burning Sun" id="ID_WOTC_WBW_RACIAL_TRAIT_SEELA_SEELA_MAGIC_INTELLIGENCE">
+		<compendium display="false" />
+		<description>
+			<p>Your spellcasting ability for these spells is Intelligence.</p>
+		</description>
+		<sheet alt="Seela Magic">
+			<description>You know the minor illusion cantrip but can only produce sounds with it. You also know the message cantrip. &#13;
+			Your spellcasting ability for this spell is Intelligence.</description>
+		</sheet>
+	</element>
+	<element name="Wisdom" type="Racial Trait" source="War of the Burning Sun" id="ID_WOTC_WBW_RACIAL_TRAIT_SEELA_SEELA_MAGIC_WISDOM">
+		<compendium display="false" />
+		<description>
+			<p>Your spellcasting ability for these spells is Wisdom.</p>
+		</description>
+		<sheet alt="Seela Magic">
+			<description>You know the minor illusion cantrip but can only produce sounds with it. You also know the message cantrip. &#13;
+			Your spellcasting ability for this spell is Wisdom.</description>
+		</sheet>
+	</element>
+	<element name="Charisma" type="Racial Trait" source="War of the Burning Sun" id="ID_WOTC_WBW_RACIAL_TRAIT_SEELA_SEELA_MAGIC_CHARISMA">
+		<compendium display="false" />
+		<description>
+			<p>Your spellcasting ability for these spells is Charisma.</p>
+		</description>
+		<sheet alt="Seela Magic">
+			<description>You know the minor illusion cantrip but can only produce sounds with it. You also know the message cantrip. &#13;
+			Your spellcasting ability for this spell is Charisma.</description>
+		</sheet>
+	</element>
+	<element name="Fallow Touch" type="Racial Trait" source="War of the Burning Sun" id="ID_WOTC_WBW_RACIAL_TRAIT_SEELA_FALLOW_TOUCH">
+		<description>
+			<p>You sap life with the touch of your bare flesh. Your unarmed strikes deal an additional 1 point of necrotic damage. A creature that grapples or is grappled by you takes 1d6 necrotic damage at the start of each of their turns.</p>
+		</description>
+		<sheet>
+			<description>You sap life with the touch of your bare flesh. Your unarmed strikes deal an additional 1 point of necrotic damage. A creature that grapples or is grappled by you takes 1d6 necrotic damage at the start of each of their turns.</description>
+		</sheet>
+	</element>
+	<element name="Fey Ancestry" type="Racial Trait" source="War of the Burning Sun" id="ID_WOTC_AAG_RACIAL_TRAIT_SEELA_FEY_ANCESTRY">
+		<description>
+			<p>You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</description>
+		</sheet>
+	</element>
+	<element name="Tradition of Song" type="Racial Trait" source="War of the Burning Sun" id="ID_WOTC_WBW_RACIAL_TRAIT_SEELA_TRADITION_OF_SONG">
+		<description>
+			<p>You have proficiency in the Performance skill. You know the Song of Forms.</p>
+		</description>
+		<sheet>
+			<description>You have proficiency in the Performance skill. You also know the Song of Forms.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+		</rules>
+	</element>
+</elements>
