@@ -98,10 +98,10 @@
 	</element>
 	<element name="Fey Ancestry" type="Racial Trait" source="War of the Burning Sun" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_RACIAL_TRAIT_SEELA_FEY_ANCESTRY">
 		<description>
-			<p>You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</p>
+			<p>You have advantage on saving throws you make to avoid or end the charmed condition on yourself, and magic can't put you to sleep.</p>
 		</description>
 		<sheet>
-			<description>You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</description>
+			<description>You have advantage on saving throws you make to avoid or end the charmed condition on yourself, and magic can't put you to sleep.</description>
 		</sheet>
 	</element>
 	<element name="Tradition of Song" type="Racial Trait" source="War of the Burning Sun" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_RACIAL_TRAIT_SEELA_TRADITION_OF_SONG">
