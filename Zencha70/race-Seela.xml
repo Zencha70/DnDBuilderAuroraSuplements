@@ -48,7 +48,7 @@
 	</element>
 	<element name="Seela Magic" type="Racial Trait" source="War of the Burning Sun" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_RACIAL_TRAIT_SEELA_SEELA_MAGIC">
 		<description>
-			<p>You know the <i>minor illusion</i> cantrip but can only produce sounds with it. You also know he </i>message</i> cantrip.</p> 
+			<p>You know the <i>minor illusion</i> cantrip but can only produce sounds with it. You also know he <i>message</i> cantrip.</p> 
 			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
 		</description>
 		<sheet display="false" />
