@@ -86,8 +86,8 @@
 			<stat name="cleric:spellcasting:prepare" value="wisdom:modifier" />
 			<stat name="cleric:spellcasting:prepare" value="level:monk:half" />
 
-			<select type="Spell" name="Cantrip (Cleric)" supports="$(spellcasting:list), 0" level="3" number="2" spellcasting="Cleric" />
-			<select type="Spell" name="Cantrip (Cleric)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Cleric" />
+			<select type="Spell" name="Cantrip (Cleric)" supports="$(spellcasting:list), 0" level="3" number="2" spellcasting="Monk" />
+			<select type="Spell" name="Cantrip (Cleric)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Monk" />
 		</rules>
 	</element>
 	<element name="Bonus Language" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_BONUS_LANGUAGE">
