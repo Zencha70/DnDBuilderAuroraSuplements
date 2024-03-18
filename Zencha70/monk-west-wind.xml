@@ -97,7 +97,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Language" id="ID_LANGUAGE_AURAN" />
+			<grant type="Language" id="ID_MM_LANGUAGE_AURAN" />
 		</rules>
 	</element>
 	<element name="Wings of the Wind" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_WINGS_OF_THE_WIND">
