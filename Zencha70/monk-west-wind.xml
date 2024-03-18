@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="monk-west-wind.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/monk-west-wind.xml" />
 		</update>
 	</info>
@@ -77,17 +77,17 @@
 			<list known="true">Cleric</list>
 		</spellcasting>
 		<rules>
-			<stat name="cleric:spellcasting:slots:1" value="1" level="3" />
-			<stat name="cleric:spellcasting:slots:2" value="1" level="5" />
-			<stat name="cleric:spellcasting:slots:3" value="1" level="9" />
-			<stat name="cleric:spellcasting:slots:4" value="1" level="13" />
-			<stat name="cleric:spellcasting:slots:5" value="1" level="17" />
+			<stat name="monk:spellcasting:slots:1" value="1" level="3" />
+			<stat name="monk:spellcasting:slots:2" value="1" level="5" />
+			<stat name="monk:spellcasting:slots:3" value="1" level="9" />
+			<stat name="monk:spellcasting:slots:4" value="1" level="13" />
+			<stat name="monk:spellcasting:slots:5" value="1" level="17" />
 
-			<stat name="cleric:spellcasting:prepare" value="wisdom:modifier" />
-			<stat name="cleric:spellcasting:prepare" value="level:monk:half" />
+			<stat name="monk:spellcasting:prepare" value="wisdom:modifier" />
+			<stat name="monk:spellcasting:prepare" value="level:monk:half" />
 
-			<select type="Spell" name="Cantrip (Cleric)" supports="$(spellcasting:list), 0" level="3" number="2" spellcasting="Monk" />
-			<select type="Spell" name="Cantrip (Cleric)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Monk" />
+			<select type="Spell" name="Cantrip (Monk)" supports="$(spellcasting:list), 0" level="3" number="2" spellcasting="Monk" />
+			<select type="Spell" name="Cantrip (Monk)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Monk" />
 		</rules>
 	</element>
 	<element name="Bonus Language" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_BONUS_LANGUAGE">
