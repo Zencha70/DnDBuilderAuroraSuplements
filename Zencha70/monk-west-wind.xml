@@ -77,11 +77,11 @@
 			<list known="true">Cleric</list>
 		</spellcasting>
 		<rules>
-			<stat name="cleric:spellcasting:slots:1" value="0" level="3" />
-			<stat name="cleric:spellcasting:slots:2" value="0" level="5" />
-			<stat name="cleric:spellcasting:slots:3" value="0" level="9" />
-			<stat name="cleric:spellcasting:slots:4" value="0" level="13" />
-			<stat name="cleric:spellcasting:slots:5" value="0" level="17" />
+			<stat name="cleric:spellcasting:slots:1" value="1" level="3" />
+			<stat name="cleric:spellcasting:slots:2" value="1" level="5" />
+			<stat name="cleric:spellcasting:slots:3" value="1" level="9" />
+			<stat name="cleric:spellcasting:slots:4" value="1" level="13" />
+			<stat name="cleric:spellcasting:slots:5" value="1" level="17" />
 
 			<stat name="cleric:spellcasting:prepare" value="wisdom:modifier" />
 			<stat name="cleric:spellcasting:prepare" value="level:monk:half" />
