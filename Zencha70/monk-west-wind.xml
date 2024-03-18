@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="monk-west-wind.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/rogue-arcane-trickster.xml" />
+		</update>
+	</info>
+
+	<element name="Way of the West Wind" type="Archetype" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_WAY_OF_THE_WEST_WIND">
+		<supports>Monastic Tradition</supports>
+		<description>
+			<p>Monks of the Way of the West Wind have trained under the cleric-monk Longinus to calm their emotions to focus and channel their ki into magic. Their graceful, windy fighting style makes them a bane to their foes and a boon to their allies.</p>
+			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_SPELLCASTING" />
+			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_BONUS_LANGUAGE" />
+			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_WINGS_OF_THE_WIND" />
+			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_TURN_UNDEAD" />
+			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_FORCEFUL_BLOWS" />
+		</description>
+		<sheet display="false">
+			<description>You control your emotions and channel your ki into great feats of holy magic.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_SPELLCASTING" level="3"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_BONUS_LANGUAGE" level="3"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_WINGS_OF_THE_WIND" level="6"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_TURN_UNDEAD" level="11"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_FORCEFUL_BLOWS" level="17"/>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_SOLO" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+		</rules>
+	</element>
+
+	<element name="Spellcasting" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_SPELLCASTING">
+		<description>
+			<p><em>3rd-Level Way of the West Wind Feature</em></p>
+			<p>When you reach 3rd level, you gain the ability to cast spells through the channeling of your ki.</p>
+			<p class="indent"><b><i>Cantrips.</i></b> You learn two cantrips of your choice from the cleric spell list. You learn an additional cleric cantrip of your choice at 10th level.</p>
+			<p class="indent"><b><i>Preparing Spells.</i></b> You prepare the list of spells available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + half your monk level, rounded down (minimum of one spell.)The spells must be of a level equal or lower than the maximum spell level you can cast.</p>
+			<p class="indent">For example, if you are a 5th-level monk with a Wisdom score of 16, your list of prepared spells can include five spells of 1st or 2nd level, in any combination.</p>
+			<p class="indent">You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in meditation: at least 1 minute per spell level for each spell on your list.</p>
+			<p class="indent"><b><i>Ki-Powered Spells.</i></b> To cast one of your spells, you must expend a number of ki points equal to the spell’s level + 1. You may cast a spell at a higher level by expending an additional ki point for each additional level, but you cannot cast a spell at a higher level than your maximum spell level.</p>
+			<p class="indent">For example, if you know the 1st-level spell cure wounds and are at least 5th level, you can cast cure wounds at 1st or 2nd level, expending 2 ki points for a 1st-level casting and 3 ki points for a second-level casting. </p>
+			<p class="indent"><b><i>Spellcasting Ability.</i></b> Wisdom is your spellcasting ability for your ki-powered spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ki-powered spell you cast and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+			</center>
+			<p class="indent"><b><i>Spellcasting Focus.</i></b> You can use the ki that powers your spells as a spellcasting focus for your ki-powered spells.</p>
+			<p class="indent"><b><i>Multiclassing.</i></b> If you have levels in another spellcasting class, you can cast the spells from the other class as ki-powered spells as long as you do not cast the spell above your maximum spell level. You can also cast one of your prepared spells from your monk class using an appropriate spell slot from another class. The monk class does not have spell slots of its own and does not contribute to total spell slots under the multiclassing rules.</p>
+
+			<h5 class="caption">WAY OF THE WEST WIND SPELLCASTING</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Monk Level</td><td class="col-10">Cantrips Known</td><td class="col-10">Maximum Spell Level</td></tr>
+				</thead>
+				<tr><td> 3rd</td><td>3</td><td>1</td></tr>
+				<tr><td> 4th</td><td>3</td><td>1</td></tr>
+				<tr><td> 5th</td><td>3</td><td>2</td></tr>
+				<tr><td> 6th</td><td>3</td><td>2</td></tr>
+				<tr><td> 7th</td><td>3</td><td>2</td></tr>
+				<tr><td> 8th</td><td>3</td><td>2</td></tr>
+				<tr><td> 9th</td><td>3</td><td>3</td></tr>
+				<tr><td>10th</td><td>4</td><td>3</td></tr>
+				<tr><td>11th</td><td>4</td><td>3</td></tr>
+				<tr><td>12th</td><td>4</td><td>3</td></tr>
+				<tr><td>13th</td><td>4</td><td>4</td></tr>
+				<tr><td>14th</td><td>4</td><td>4</td></tr>
+				<tr><td>15th</td><td>4</td><td>4</td></tr>
+				<tr><td>16th</td><td>4</td><td>4</td></tr>
+				<tr><td>17th</td><td>4</td><td>5</td></tr>
+				<tr><td>18th</td><td>4</td><td>5</td></tr>
+				<tr><td>19th</td><td>4</td><td>5</td></tr>
+				<tr><td>20th</td><td>4</td><td>5</td></tr>
+			</table>				
+		</description>
+		<sheet display="false" />
+		<spellcasting name="Monk" ability="Wisdom" prepare="true">
+			<list known="true">Cleric</list>
+		</spellcasting>
+		<rules>
+			<stat name="cleric:spellcasting:slots:1" value="0" level="3" />
+			<stat name="cleric:spellcasting:slots:2" value="0" level="5" />
+			<stat name="cleric:spellcasting:slots:3" value="0" level="9" />
+			<stat name="cleric:spellcasting:slots:4" value="0" level="13" />
+			<stat name="cleric:spellcasting:slots:5" value="0" level="17" />
+
+			<stat name="cleric:spellcasting:prepare" value="wisdom:modifier" />
+			<stat name="cleric:spellcasting:prepare" value="level:monk:half" />
+
+			<select type="Spell" name="Cantrip (Cleric)" supports="$(spellcasting:list), 0" level="3" number="2" spellcasting="Cleric" />
+			<select type="Spell" name="Cantrip (Cleric)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Cleric" />
+		</rules>
+	</element>
+	<element name="Bonus Language" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_BONUS_LANGUAGE">
+		<description>
+			<p><em>3rd-Level Way of the West Wind Feature</em></p>
+			<p>Starting when you choose this tradition at 3rd level, your training allows you to speak, read, and write Auran.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_AURAN" />
+		</rules>
+	</element>
+	<element name="Wings of the Wind" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_WINGS_OF_THE_WIND">
+		<description>
+			<p><em>6th-Level Way of the West Wind Feature</em></p>
+			<p>At 6th level, you gain the ability to control the wind around you, giving you or another creature limited flight. As a bonus action, you can expend a ki point to give yourself a fly speed of 60 feet until the end of your next turn.</p>
+			<p class="indent"> Additionally, as an action, you can touch a creature and expend a ki point to give that creature a fly speed of 60 feet until the end of your next turn.</p>
+		</description>
+		<sheet>
+			<description>As a bonus action, you can expend a ki point to give yourself a fly speed of 60 feet until the end of your next turn.
+			Additionally, as an action, you can touch a creature and expend a ki point to give that creature a fly speed of 60 feet until the end of your next turn.</description>
+		</sheet>
+	</element>
+	<element name="Turn Undead" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_TURN_UNDEAD">
+		<description>
+			<p><em>11th-Level Way of the West Wind Feature</em></p>
+			<p>At 11th level, you gain the ability to chant and channel your ki into a wave of positive energy that is unpalatable to the undead. As an action, you can spend 4 ki points to turn undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.</p>
+			<p class="indent"> A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</p>
+		</description>
+		<sheet>
+			<description>Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
+			A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</description>
+		</sheet>
+	</element>
+	<element name="Forceful Blows" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEWESTWIND_FORCEFUL_BLOWS">
+		<description>
+			<p><em>17th-Level Way of the West Wind Feature</em></p>
+			<p>At 17th level, your strikes become so quick that you can generate concussive force from the compressed wind. Once per turn, you can deal an extra 1d10 force damage to a target you hit with a monk weapon or unarmed strike.</p>
+		</description>
+		<sheet>
+			<description>Once per turn, you can deal an extra 1d10 force damage to a target you hit with a monk weapon or unarmed strike.</description>
+		</sheet>
+	</element>
+</elements>
