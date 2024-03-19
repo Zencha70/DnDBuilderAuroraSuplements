@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="monk-west-wind.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/monk-west-wind.xml" />
 		</update>
 	</info>
@@ -34,7 +34,7 @@
 			<p><em>3rd-Level Way of the West Wind Feature</em></p>
 			<p>When you reach 3rd level, you gain the ability to cast spells through the channeling of your ki.</p>
 			<p class="indent"><b><i>Cantrips.</i></b> You learn two cantrips of your choice from the cleric spell list. You learn an additional cleric cantrip of your choice at 10th level.</p>
-			<p class="indent"><b><i>Preparing Spells.</i></b> You prepare the list of spells available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + half your monk level, rounded down (minimum of one spell.)The spells must be of a level equal or lower than the maximum spell level you can cast.</p>
+			<p class="indent"><b><i>Preparing Spells.</i></b> You prepare the list of spells available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + half your monk level, rounded down (minimum of one spell). The spells must be of a level equal or lower than the maximum spell level you can cast.</p>
 			<p class="indent">For example, if you are a 5th-level monk with a Wisdom score of 16, your list of prepared spells can include five spells of 1st or 2nd level, in any combination.</p>
 			<p class="indent">You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in meditation: at least 1 minute per spell level for each spell on your list.</p>
 			<p class="indent"><b><i>Ki-Powered Spells.</i></b> To cast one of your spells, you must expend a number of ki points equal to the spell’s level + 1. You may cast a spell at a higher level by expending an additional ki point for each additional level, but you cannot cast a spell at a higher level than your maximum spell level.</p>
