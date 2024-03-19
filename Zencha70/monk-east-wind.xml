@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="monk-east-wind.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/monk-east-wind.xml" />
 		</update>
 	</info>
@@ -12,6 +12,7 @@
 			<p>MMonks of the Way of the East Wind have trained under the sorcerer-monk Pilus to harness their emotions to focus and unleash their ki as magic spells. Their vicious, tempestuous fighting style makes them like a storm unleashed upon their foes.</p>
 			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_SPELLCASTING" />
 			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_BONUS_LANGUAGE" />
+			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_FORCE_OF_WILL" />
 			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_METAMAGIC" />
 			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_LIGHTNING_AFFINITY" />
 			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_LIGHTNING_STRIKES" />
@@ -22,6 +23,7 @@
 		<rules>
 			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_SPELLCASTING" level="3"/>
 			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_BONUS_LANGUAGE" level="3"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_FORCE_OF_WILL" level="3"/>
 			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_METAMAGIC" level="6"/>
 			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_LIGHTNING_AFFINITY" level="11"/>
 			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_LIGHTNING_STRIKES" level="17"/>
@@ -178,6 +180,22 @@
 		<sheet display="false" />
 		<rules>
 			<grant type="Language" id="ID_MM_LANGUAGE_AURAN" />
+		</rules>
+	</element>
+		<element name="Force of Will" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_FORCE_OF_WILL">
+		<description>
+			<p><em>3rd-Level Way of the East Wind Feature</em></p>
+			<p>At 3rd level, you learn to harness your emotions to focus and unleash your ki. You may use either your Wisdom or Charisma modifier, whichever is higher, in the calculation of your Unarmored Defense, monk spellcasting ability, and the DC of your Stunning Strike.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="ki:dc" value="-wisdom:modifier" />
+			<stat name="ki:dc" value="wisdom:modifier" bonus="ability" />
+			<stat name="ki:dc" value="charisma:modifier" bonus="ability" />
+
+			<stat name="ac:unarmored defense monk" value="-wisdom:modifier" />
+			<stat name="ac:unarmored defense monk" value="wisdom:modifier" bonus="ability" />
+			<stat name="ac:unarmored defense monk" value="charisma:modifier" bonus="ability" />
 		</rules>
 	</element>
 	<element name="Metamagic" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_METAMAGIC">
