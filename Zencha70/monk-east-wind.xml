@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="monk-east-wind.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/monk-east-wind.xml" />
 		</update>
 	</info>
@@ -32,13 +32,6 @@
 	</element>
 
 	<element name="Spellcasting" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_SPELLCASTING">
-		<rules>
-			<select type="Archetype Feature" name="Spellcasting Ability (East Wind)" supports="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_CHA_SPELLCASTING|ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_WIS_SPELLCASTING" />
-		</rules>
-	</element>
-
-	<!-- Spellcasting Styles -->
-	<element name="Charisma Spellcasting" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_CHA_SPELLCASTING">
 		<description>
 			<p><em>3rd-Level Way of the East Wind Feature</em></p>
 			<p>When you reach 3rd level, you gain the ability to cast spells through the channeling of your ki.</p>
@@ -82,6 +75,13 @@
 			</table>				
 		</description>
 		<sheet display="false" />
+		<rules>
+			<select type="Archetype Feature" name="Spellcasting Ability (East Wind)" supports="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_CHA_SPELLCASTING|ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_WIS_SPELLCASTING" />
+		</rules>
+	</element>
+
+	<!-- Spellcasting Styles -->
+	<element name="Charisma Spellcasting" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_CHA_SPELLCASTING">
 		<spellcasting name="Monk" ability="Charisma" allowReplace="true">
 			<list known="true">Sorcerer</list>
 		</spellcasting>
@@ -106,49 +106,6 @@
 		</rules>
 	</element>
 	<element name="Wisdom Spellcasting" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_WIS_SPELLCASTING">
-		<description>
-			<p><em>3rd-Level Way of the East Wind Feature</em></p>
-			<p>When you reach 3rd level, you gain the ability to cast spells through the channeling of your ki.</p>
-			<p class="indent"><b><i>Cantrips.</i></b> You learn three cantrips of your choice from the sorcerer spell list. You learn an additional sorcerer cantrip of your choice at 10th level.</p>
-			<p class="indent"><b><i>Spells Known of 1st Level and Higher.</i></b> You know four 1st-level spells of your choice from the sorcerer spell list. These spells are considered to be monk spells for you.</p>
-			<p class="indent">The Spells Known column of the Way of the East Wind Spellcasting table shows when you learn more sorcerer spells of 1st-level or higher up to the maximum spell level you can cast. For instance, when you reach 9th level in this class, you can learn one new spell of 1st, 2nd, or 3rd level.</p>
-			<p class="indent">Additionally, when you gain a level in this class, you can choose one of the spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level no higher than the maximum spell level you can cast.</p>
-			<p class="indent"><b><i>Ki-Powered Spells.</i></b> Ki-Powered Spells. To cast one of your spells, you must expend a number of ki points equal to the spell’s level + 1. You may cast a spell at a higher level by expending an additional ki point for each additional level, but you cannot cast a spell at a higher level than your maximum spell level. For example, if you know the 1st-level spell burning hands and are at least 5th level, you can cast burning hands at 1st or 2nd level, expending 2ki points for a 1st-level casting and 3 ki points for a second-level casting.</p>
-			<p class="indent">For example, if you know the 1st-level spell burning hands and are at least 5th level, you can cast burning hands at 1st or 2nd level, expending 2 ki points for a 1st-level casting and 3 ki points for a second-level casting. </p>
-			<p class="indent"><b><i>Spellcasting Ability.</i></b> As you can use your East Wind training or rely on more traditional monk philosophies, you may choose Wisdom or Charisma as your spellcasting ability for your ki-powered spells. You use your chosen ability whenever a spell refers to your spellcasting ability. In addition, you use your chosen ability modifier when setting the saving throw DC for a monk spell you cast and when making an attack roll with one.</p>
-			<center>
-				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your chosen ability modifier</p>
-				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your chosen ability modifier</p>
-			</center>
-			<p class="indent"><b><i>Spellcasting Focus.</i></b> You can use the ki that powers your spells as a spellcasting focus for your ki-powered spells.</p>
-			<p class="indent"><b><i>Multiclassing.</i></b> If you have levels in another spellcasting class, you can cast the spells from the other class as ki-powered spells as long as you do not cast the spell above your maximum spell level. You can also cast one of your known spells from your monk class using an appropriate spell slot from another class. The monk class does not have spell slots of its own and does not contribute to total spell slots under the multiclassing rules.</p>
-
-			<h5 class="caption">WAY OF THE EAST WIND SPELLCASTING</h5>
-			<table class="class-features">
-				<thead>
-					<tr><td class="col-10">Monk Level</td><td class="col-10">Cantrips Known</td><td class="col-10">Spells Known</td><td class="col-10">Maximum Spell Level</td></tr>
-				</thead>
-				<tr><td> 3rd</td><td>3</td><td>4</td><td>1</td></tr>
-				<tr><td> 4th</td><td>3</td><td>4</td><td>1</td></tr>
-				<tr><td> 5th</td><td>3</td><td>5</td><td>2</td></tr>
-				<tr><td> 6th</td><td>3</td><td>5</td><td>2</td></tr>
-				<tr><td> 7th</td><td>3</td><td>6</td><td>2</td></tr>
-				<tr><td> 8th</td><td>3</td><td>6</td><td>2</td></tr>
-				<tr><td> 9th</td><td>3</td><td>7</td><td>3</td></tr>
-				<tr><td>10th</td><td>4</td><td>7</td><td>3</td></tr>
-				<tr><td>11th</td><td>4</td><td>8</td><td>3</td></tr>
-				<tr><td>12th</td><td>4</td><td>8</td><td>3</td></tr>
-				<tr><td>13th</td><td>4</td><td>9</td><td>4</td></tr>
-				<tr><td>14th</td><td>4</td><td>9</td><td>4</td></tr>
-				<tr><td>15th</td><td>4</td><td>10</td><td>4</td></tr>
-				<tr><td>16th</td><td>4</td><td>10</td><td>4</td></tr>
-				<tr><td>17th</td><td>4</td><td>11</td><td>5</td></tr>
-				<tr><td>18th</td><td>4</td><td>11</td><td>5</td></tr>
-				<tr><td>19th</td><td>4</td><td>12</td><td>5</td></tr>
-				<tr><td>20th</td><td>4</td><td>12</td><td>5</td></tr>
-			</table>				
-		</description>
-		<sheet display="false" />
 		<spellcasting name="Monk" ability="Wisdom" allowReplace="true">
 			<list known="true">Sorcerer</list>
 		</spellcasting>
