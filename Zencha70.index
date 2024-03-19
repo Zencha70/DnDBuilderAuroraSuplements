@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Your Content</name>
-		<update version="1.0.4">
+		<update version="1.0.5">
 			<file name="Zencha70.index" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70.index" />
 		</update>
 	</info>
@@ -12,5 +12,6 @@
 		<file name="potb-boon.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/potb-boon.xml" />
 		<file name="race-Seela.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/race-Seela.xml" />
 		<file name="monk-west-wind.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/monk-west-wind.xml" />
+		<file name="monk-east-wind.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/monk-east-wind.xml" />
 	</files>
 </index>
