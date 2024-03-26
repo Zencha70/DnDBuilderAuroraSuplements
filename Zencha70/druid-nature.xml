@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.7">
+			<file name="druid-nature.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/druid-nature.xml" />
+		</update>
+	</info>
+
+	<element name="Circle of Nature" type="Archetype" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_CIRCLE_OF_NATURE">
+		<supports>Druid Circle</supports>
+		<description>
+			<p>An eagle soars in the air. Salmon swim upstream against the current. A badger burrows under the earth. A fly darts to avoid being swatted. Beasts thrive as they use their strengths in the the right environment. Druids of the Circle of Nature learn to mimic this symbiosis and strive for a balance between society and nature, but they can bring the forces of nature to bear when it is threatened.</p>
+			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_CIRCLEOFNATURE_ASPECT_OF_NATURE" />
+			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_CIRCLEOFNATURE_FRIEND_OF_NATURE" />
+			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_CIRCLEOFNATURE_AVATAR_OF_NATURE" />
+			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_CIRCLEOFNATURE_DEFENDER_OF_NATURE" />
+		</description>
+		<sheet display="false">
+			<description>You can bring the forces of nature to bear when it is threatened.</description>
+		<rules>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_CIRCLEOFNATURE_ASPECT_OF_NATURE" level="2"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_CIRCLEOFNATURE_FRIEND_OF_NATURE" level="6"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_CIRCLEOFNATURE_AVATAR_OF_NATURE" level="10"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_CIRCLEOFNATURE_DEFENDER_OF_NATURE" level="14"/>
+		</rules>
+	</element>
+
+	<element name="Aspect of Nature" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_CIRCLEOFNATURE_ASPECT_OF_NATURE">
+		<description>
+			<p><em>2nd-Level Circle of Nature Feature</em></p>
+			<p>At 2nd level, When you choose this circle at 2nd level, you gain the ability to use Wild Shape to assume one of the following aspects of creatures of the natural world. You revert when this use of Wild Shape ends or you use this feature to choose a different aspect.</p>
+			<p class="indent"> You are able to simultaneously assume an additional aspect when you reach 6th, 10th, and 14th level.</p>
+
+		</description>
+		<sheet action="Action">
+			<description>You can expend a use of your Wild Shape feature to take on a beastly aspect, rather than transforming into a beast.</description>
+		</sheet>
+		<rules>
+			<select type="Archetype Feature" name="Aspect (Level 2)" supports="Aspect,Circle of Nature" number="1" />
+			<select type="Archetype Feature" name="Aspect (Level 6)" supports="Aspect,Circle of Nature" number="1" level="6" />
+			<select type="Archetype Feature" name="Aspect (Level 10)" supports="Aspect,Circle of Nature" number="1" level="10" />
+			<select type="Archetype Feature" name="Aspect (Level 14)" supports="Aspect,Circle of Nature" number="1" level="14" />
+		</rules>
+	</element>
+
+	<element name="Friend of Nature" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_CIRCLEOFNATURE_FRIEND_OF_NATURE">
+		<description>
+			<p><em>6th-Level Circle of Nature Feature</em></p>
+			<p>Starting at 6th level, you can summon a fey spirit of nature to aid you. You can expend a use of Wild Shape to cast find familiar without material components. This use of find familiar has the following changes:</p>
+			<ul>
+				<li>The familiar is a fey spirit</li>
+				<li>The familiar assumes the shape of a beast of a type and challenge rating that you would be able to assume with your Wild Shape</li>
+				<li>It may attack with any actions in its stat block</li>
+				<li>You cannot temporarily dismiss the familiar</li>
+			</ul>
+			<p>You cannot recover this use of Wild Shape until you have dismissed the familiar forever or it has reached 0 hit points.</p>
+		</description>
+		<sheet>
+			<description>You can expend a use of Wild Shape to cast find familiar without material components.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" spellcasting="Druid" />
+		</rules>
+	</element>
+	<element name="Avatar of Nature" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_CIRCLEOFNATURE_AVATAR_OF_NATURE">
+		<description>
+			<p><em>10th-Level Circle of Nature Feature</em></p>
+			<p>When you reach 10th level, you gain the ability to use Wild Shape to infuse your body with aspects of the natural world. You can expend two uses of Wild Shape to assume the shape of an elemental of challenge rating 5 or lower.</p>
+		</description>
+		<sheet>
+			<description>You can expend two uses of Wild Shape to assume the shape of an elemental of challenge rating 5 or lower.</description>
+		</sheet>
+	</element>
+	<element name="Defender of Nature" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_CIRCLEOFNATURE_DEFENDER_OF_NATURE">
+		<description>
+			<p><em>14th-Level Circle of Nature Feature</em></p>
+			<p>When you reach 14th level, your knowledge of the balance of nature in the world increases your effectiveness in fighting creatures that are unnatural or come from another plane of existence. You have advantage on attack rolls against celestials, fiends, and undead, and those creatures have disadvantage on saving throws from your spells.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on attack rolls against celestials, fiends, and undead, and those creatures have disadvantage on saving throws from your spells.</description>
+		</sheet>
+	</element>
+
+
+	<!-- Aspects -->
+	<element name="Agility" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_ASPECT_AGILITY">
+		<supports>Aspect, Circle of Nature</supports>
+		<description>
+			<p>Your muscles shrink slightly. You have advantage on Dexterity ability checks and saving throws and disadvantage on Strength ability checks and saving throws.</p>
+		</description>
+		<sheet>
+			<description>When you activate this aspect, you gain advantage on Dexterity ability checks and saving throws and disadvantage on Strength ability checks and saving throws. </description>
+		</sheet>
+	</element>
+	<element name="Antifreeze" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_ASPECT_ANTIFREEZE">
+		<supports>Aspect, Circle of Nature</supports>
+		<description>
+			<p>Proteins in your blood bind to ice crystals, preventing you from freezing. You can tolerate temperatures as low as -50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as -100 degrees Fahrenheit.</p>
+		</description>
+		<sheet>
+			<description>When you activate this aspect, you'll be able to tolerate temperatures as low as -50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as -100 degrees Fahrenheit. </description>
+		</sheet>
+	</element>
+	<element name="Amphibious" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_ASPECT_AMPHIBIOUS">
+		<supports>Aspect, Circle of Nature</supports>
+		<description>
+			<p>You sprout gills and grow webbing between Your fingers. You gain a swim speed of 40 feet and the ability to breathe both air and water.</p>
+		</description>
+		<sheet>
+			<description>When you activate this aspect, you gain a swim speed of 40 feet and the ability to breathe both air and water. </description>
+		</sheet>
+	</element>
+	<element name="Camouflage" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_ASPECT_CAMOUFLAGE">
+		<supports>Aspect, Circle of Nature</supports>
+		<description>
+			<p>The coloration of your skin adapts to your surroundings. You have advantage on Dexterity (Stealth) checks.</p>
+		</description>
+		<sheet>
+			<description>When you activate this aspect, you gain advantage on Dexterity (Stealth) checks. </description>
+		</sheet>
+	</element>
+	<element name="Constrictor" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_ASPECT_CONSTRICTOR">
+		<supports>Aspect, Circle of Nature</supports>
+		<description>
+			<p>Your arm and grip strength increase immensely. You have advantage on Strength (Athletics) checks to grapple or maintain a grapple on another creature. If you use both hands, a creature grappled by you is restrained. While restraining a creature you cannot attack, but you can use your action to constrict the creature, causing it to take bludgeoning damage equal to 1d8 + your Strength modifier.</p>
+		</description>
+		<sheet>
+			<description> advantage on Strength (Athletics) checks to grapple or maintain a grapple on another creature. If you use both hands, a creature grappled by you is restrained. While restraining a creature you cannot attack, but you can use your action to constrict the creature, causing it to take bludgeoning damage equal to 1d8 + {{constrictor:damage}}.</description>
+		</sheet>
+		<rules>
+			<stat name="constrictor:damage" value="strength:modifier" bonus="base" />
+		</rules>
+	</element>
+	<element name="Endurance" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_ASPECT_ENDURANCE">
+		<supports>Aspect, Circle of Nature</supports>
+		<description>
+			<p>Your skin hardens. You gain resistance to bludgeoning, piercing, and slashing damage and have advantage on Constitution saving throws.</p>
+		</description>
+		<sheet>
+			<description>When you activate this aspect, you gain resistance to bludgeoning, piercing, and slashing damage and have advantage on Constitution saving throws. </description>
+		</sheet>
+	</element>
+	<element name="Fossorial" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_ASPECT_FOSSORIAL">
+		<supports>Aspect, Circle of Nature</supports>
+		<description>
+			<p>Claws emerge from your fingers. You gain a burrow speed of 10 feet and add 1d4 piercing damage to your unarmed strikes with your hands.</p>
+		</description>
+		<sheet>
+			<description>When you activate this aspect, you gain a burrow speed of 10 feet and add 1d4 piercing damage to your unarmed strikes with your hands. </description>
+		</sheet>
+	</element>
+	<element name="Flight " type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_ASPECT_FLIGHT">
+		<supports>Aspect, Circle of Nature</supports>
+		<prerequisite>8th level</prerequisite>
+		<requirements>[level:8]</requirements>
+		<description>
+			<p>You grow bat-like or feathered wings and gain a fly speed of 30 feet.</p>
+		</description>
+		<sheet>
+			<description>When you activate this aspect, you gain a fly speed of 30 feet. </description>
+		</sheet>
+	</element>
+	<element name="Scansorial" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_ASPECT_SCANSORIAL">
+		<supports>Aspect, Circle of Nature</supports>
+		<description>
+			<p>Your upper-body and grip strength increase. You gain a climb speed of 30 feet.</p>
+		</description>
+		<sheet>
+			<description>When you activate this aspect, you gain a climb speed of 30 feet. </description>
+		</sheet>
+	</element>
+	<element name="Van der Waals" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_ASPECT_VAN_DER_WAALS">
+		<supports>Aspect, Circle of Nature</supports>
+		<description>
+			<p>You sprout thousands of microscopic hairs from your hands and feet. When your hands and feet are uncovered and your hands are free, you can move up, down, and across vertical surfaces and upside down along ceilings without making a Strength (Athletics) check. You fall if you do not maintain contact with a surface with at least three of your limbs or you attempt to carry weight beyond your carrying capacity.</p>
+		</description>
+		<sheet>
+			<description>When you activate this aspect and your hands & feet are uncovered and free, you can move up, down, and across vertical surfaces and upside down along ceilings without making a Strength (Athletics) check. You fall if you do not maintain contact with a surface with at least three of your limbs or you attempt to carry weight beyond your carrying capacity. </description>
+		</sheet>
+	</element>
+	<element name="Vigor" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_ASPECT_VIGOR">
+		<supports>Aspect, Circle of Nature</supports>
+		<description>
+			<p>Your muscles expand. You have advantage on Strength ability checks and saving throws and disadvantage on Dexterity ability checks and saving throws.</p>
+		</description>
+		<sheet>
+			<description>When you activate this aspect, you gain advantage on Strength ability checks and saving throws and disadvantage on Dexterity ability checks and saving throws. </description>
+		</sheet>
+	</element>
+</elements>
