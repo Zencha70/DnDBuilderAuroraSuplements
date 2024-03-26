@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="druid-nature.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/druid-nature.xml" />
 		</update>
 	</info>
@@ -17,6 +17,7 @@
 		</description>
 		<sheet display="false">
 			<description>You can bring the forces of nature to bear when it is threatened.</description>
+		</sheet>
 		<rules>
 			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_CIRCLEOFNATURE_ASPECT_OF_NATURE" level="2"/>
 			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_CIRCLEOFNATURE_FRIEND_OF_NATURE" level="6"/>
