@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="1.0.14">
+		<update version="1.1.1">
 			<file name="druid-nature.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/druid-nature.xml" />
 		</update>
 	</info>
@@ -126,7 +126,7 @@
 			<p>Your arm and grip strength increase immensely. You have advantage on Strength (Athletics) checks to grapple or maintain a grapple on another creature. If you use both hands, a creature grappled by you is restrained. While restraining a creature you cannot attack, but you can use your action to constrict the creature, causing it to take bludgeoning damage equal to 1d8 + your Strength modifier.</p>
 		</description>
 		<sheet usage="Aspect of Nature">
-			<description> advantage on Strength (Athletics) checks to grapple or maintain a grapple on another creature. If you use both hands, a creature grappled by you is restrained. While restraining a creature you cannot attack, but you can use your action to constrict the creature, causing it to take bludgeoning damage equal to 1d8 + {{constrictor:damage}}.</description>
+			<description>When you activate this aspect, you gain advantage on Strength (Athletics) checks to grapple or maintain a grapple on another creature. If you use both hands, a creature grappled by you is restrained. While restraining a creature you cannot attack, but you can use your action to constrict the creature, causing it to take bludgeoning damage equal to 1d8 + {{constrictor:damage}}.</description>
 		</sheet>
 		<rules>
 			<stat name="constrictor:damage" value="strength:modifier" bonus="base" />
