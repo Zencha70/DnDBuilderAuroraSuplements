@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.9">
+		<update version="0.0.10">
 			<file name="druid-nature.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/druid-nature.xml" />
 		</update>
 	</info>
@@ -16,8 +16,6 @@
 			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_CIRCLEOFNATURE_DEFENDER_OF_NATURE" />
 		</description>
 		<sheet display="false">
-			<description>You can bring the forces of nature to bear when it is threatened.</description>
-		</sheet>
 		<rules>
 			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_CIRCLEOFNATURE_ASPECT_OF_NATURE" level="2"/>
 			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_CIRCLEOFNATURE_FRIEND_OF_NATURE" level="6"/>
@@ -90,7 +88,6 @@
 			<p>Your muscles shrink slightly. You have advantage on Dexterity ability checks and saving throws and disadvantage on Strength ability checks and saving throws.</p>
 		</description>
 		<sheet usage="Aspect of Nature">
-		<sheet>
 			<description>When you activate this aspect, you gain advantage on Dexterity ability checks and saving throws and disadvantage on Strength ability checks and saving throws. </description>
 		</sheet>
 	</element>
@@ -100,7 +97,6 @@
 			<p>Proteins in your blood bind to ice crystals, preventing you from freezing. You can tolerate temperatures as low as -50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as -100 degrees Fahrenheit.</p>
 		</description>
 		<sheet usage="Aspect of Nature">
-		<sheet>
 			<description>When you activate this aspect, you'll be able to tolerate temperatures as low as -50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as -100 degrees Fahrenheit. </description>
 		</sheet>
 	</element>
@@ -110,7 +106,6 @@
 			<p>You sprout gills and grow webbing between Your fingers. You gain a swim speed of 40 feet and the ability to breathe both air and water.</p>
 		</description>
 		<sheet usage="Aspect of Nature">
-		<sheet>
 			<description>When you activate this aspect, you gain a swim speed of 40 feet and the ability to breathe both air and water. </description>
 		</sheet>
 	</element>
@@ -120,7 +115,6 @@
 			<p>The coloration of your skin adapts to your surroundings. You have advantage on Dexterity (Stealth) checks.</p>
 		</description>
 		<sheet usage="Aspect of Nature">
-		<sheet>
 			<description>When you activate this aspect, you gain advantage on Dexterity (Stealth) checks. </description>
 		</sheet>
 	</element>
@@ -130,7 +124,6 @@
 			<p>Your arm and grip strength increase immensely. You have advantage on Strength (Athletics) checks to grapple or maintain a grapple on another creature. If you use both hands, a creature grappled by you is restrained. While restraining a creature you cannot attack, but you can use your action to constrict the creature, causing it to take bludgeoning damage equal to 1d8 + your Strength modifier.</p>
 		</description>
 		<sheet usage="Aspect of Nature">
-		<sheet>
 			<description> advantage on Strength (Athletics) checks to grapple or maintain a grapple on another creature. If you use both hands, a creature grappled by you is restrained. While restraining a creature you cannot attack, but you can use your action to constrict the creature, causing it to take bludgeoning damage equal to 1d8 + {{constrictor:damage}}.</description>
 		</sheet>
 		<rules>
@@ -143,7 +136,6 @@
 			<p>Your skin hardens. You gain resistance to bludgeoning, piercing, and slashing damage and have advantage on Constitution saving throws.</p>
 		</description>
 		<sheet usage="Aspect of Nature">
-		<sheet>
 			<description>When you activate this aspect, you gain resistance to bludgeoning, piercing, and slashing damage and have advantage on Constitution saving throws. </description>
 		</sheet>
 	</element>
@@ -153,7 +145,6 @@
 			<p>Claws emerge from your fingers. You gain a burrow speed of 10 feet and add 1d4 piercing damage to your unarmed strikes with your hands.</p>
 		</description>
 		<sheet usage="Aspect of Nature">
-		<sheet>
 			<description>When you activate this aspect, you gain a burrow speed of 10 feet and add 1d4 piercing damage to your unarmed strikes with your hands. </description>
 		</sheet>
 	</element>
@@ -165,7 +156,6 @@
 			<p>You grow bat-like or feathered wings and gain a fly speed of 30 feet.</p>
 		</description>
 		<sheet usage="Aspect of Nature">
-		<sheet>
 			<description>When you activate this aspect, you gain a fly speed of 30 feet. </description>
 		</sheet>
 	</element>
@@ -175,7 +165,6 @@
 			<p>Your upper-body and grip strength increase. You gain a climb speed of 30 feet.</p>
 		</description>
 		<sheet usage="Aspect of Nature">
-		<sheet>
 			<description>When you activate this aspect, you gain a climb speed of 30 feet. </description>
 		</sheet>
 	</element>
@@ -185,7 +174,6 @@
 			<p>You sprout thousands of microscopic hairs from your hands and feet. When your hands and feet are uncovered and your hands are free, you can move up, down, and across vertical surfaces and upside down along ceilings without making a Strength (Athletics) check. You fall if you do not maintain contact with a surface with at least three of your limbs or you attempt to carry weight beyond your carrying capacity.</p>
 		</description>
 		<sheet usage="Aspect of Nature">
-		<sheet>
 			<description>When you activate this aspect and your hands & feet are uncovered and free, you can move up, down, and across vertical surfaces and upside down along ceilings without making a Strength (Athletics) check. You fall if you do not maintain contact with a surface with at least three of your limbs or you attempt to carry weight beyond your carrying capacity. </description>
 		</sheet>
 	</element>
@@ -195,7 +183,6 @@
 			<p>Your muscles expand. You have advantage on Strength ability checks and saving throws and disadvantage on Dexterity ability checks and saving throws.</p>
 		</description>
 		<sheet usage="Aspect of Nature">
-		<sheet>
 			<description>When you activate this aspect, you gain advantage on Strength ability checks and saving throws and disadvantage on Dexterity ability checks and saving throws. </description>
 		</sheet>
 	</element>
