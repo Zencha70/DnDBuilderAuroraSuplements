@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="1.0.13">
+		<update version="1.0.14">
 			<file name="druid-nature.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/druid-nature.xml" />
 		</update>
 	</info>
@@ -176,7 +176,7 @@
 			<p>You sprout thousands of microscopic hairs from your hands and feet. When your hands and feet are uncovered and your hands are free, you can move up, down, and across vertical surfaces and upside down along ceilings without making a Strength (Athletics) check. You fall if you do not maintain contact with a surface with at least three of your limbs or you attempt to carry weight beyond your carrying capacity.</p>
 		</description>
 		<sheet usage="Aspect of Nature">
-			<description>When you activate this aspect and your hands & feet are uncovered and free, you can move up, down, and across vertical surfaces and upside down along ceilings without making a Strength (Athletics) check. You fall if you do not maintain contact with a surface with at least three of your limbs or you attempt to carry weight beyond your carrying capacity. </description>
+			<description>When you activate this aspect and your hands and feet are uncovered and free, you can move up, down, and across vertical surfaces and upside down along ceilings without making a Strength (Athletics) check. You fall if you do not maintain contact with a surface with at least three of your limbs or you attempt to carry weight beyond your carrying capacity. </description>
 		</sheet>
 	</element>
 	<element name="Vigor" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_ASPECT_VIGOR">
