@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="1.1.2">
+		<update version="1.1.3">
 			<file name="fighter-commander.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/fighter-commander.xml" />
 		</update>
 	</info>
 
 	<element name="Commander" type="Archetype" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_COMMANDER">
-		<supports>Druid Circle</supports>
+		<supports>Martial Archetype</supports>
 		<description>
 			<p>Commanders are at home on the battlefield, with a group of allies or minions by their side. While bards simply inspire the courage of their companions, commanders know what tactics have the best chance of leading to victory, and know how to motivatepeople to fight well. Most commanders are membersof the military, but many tribal chieftains, rebelleaders, and ship’s captains have the skills and talents of commanders.</p>
 			<p class="indent">In an adventuring party, the commander is not necessarily the leader, though he is the person to listen to when large or complicated combat looms. Players of commander characters are encouraged to research some classic military tactics, because no amount of stat bonuses can balance out genuinely poor planning. Some key tactics to bear in mind include:</p>
