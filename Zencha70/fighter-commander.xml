@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="1.1.3">
+		<update version="1.1.4">
 			<file name="fighter-commander.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/fighter-commander.xml" />
 		</update>
 	</info>
@@ -47,7 +47,7 @@
 			<p class="indent"><b><i>Leader Performance.</i></b> You have a number of leadership performances equal to your Charisma modifier. You regain one expended leadership performance when you finish a short rest, and you regain all of your expended leadership performances when you finish a long rest.</p>
 		</description>
 		<sheet action="Bonus Action">
-			<description>You can very effectively coordinate your allies in the thick of battle. You have {{leadership performance:charge}} Leadership Perormances to fuel your Leadership Tactics </description>
+			<description>You can very effectively coordinate your allies in the thick of battle. You have {{leadership performance:charge}} Leadership Performances to fuel your Leadership Tactics </description>
 		</sheet>
 		<rules>
 
@@ -69,7 +69,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Bonus Proficiency (Samurai)" supports="ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_STEALTH" />
+			<select type="Proficiency" name="Bonus Proficiency" supports="ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_STEALTH" />
 		</rules>
 	</element>
 	<element name="Advanced Tactics" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_ADVANCED_TACTICS">
@@ -142,7 +142,7 @@
 			<p>On your turn, you can use a bonus action and expend one leadership performance to help allies break free of one mind-affecting effect. Make a Charisma (Performance) check. If your check beats the DC of the saving throw, your chosen allies within 30 feet of you break free of the effect as if they had succeeded with their saving throw.</p>
 		</description>
 		<sheet usage="Leader Tactics">
-			<description>When you activate this Tactic as a Bonus Action, you expend one Leadership Performance and make a Charisma (Performance) check. If your check beats the DC of any mind affecting effects, your chosen allies within 30 feet break free of the effect. </description>
+			<description>When you activate this Tactic, you expend one Leadership Performance and make a Charisma (Performance) check. If your check beats the DC of any mind affecting effects, your chosen allies within 30 feet break free of the effect. </description>
 		</sheet>
 	</element>
 	<element name="Maneuver Leader" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_TACTIC_MANEUVER_LEADER">
@@ -151,7 +151,7 @@
 			<p>On your turn, you can use a bonus action and expend one leadership performance to grant your chosen allies within 30 feet of you the ability to use their reaction to move up to their speed while either taking the Disengage action, making a single weapon attack, or casting a cantrip with a casting time of one action.</p>
 		</description>
 		<sheet usage="Leader Tactics">
-			<description>When you activate this Tactic as a Bonus Action, you expend one Leadership Performance to allow your chosen allies to use teir reaction to move up to their speed while taking the Disengage, Attack (single weapon attack only), or Cast Spell action (cantrip only). </description>
+			<description>When you activate this Tactic, you expend one Leadership Performance to allow your chosen allies to use teir reaction to move up to their speed while taking the Disengage, Attack (single weapon attack only), or Cast Spell action (cantrip only). </description>
 		</sheet>
 	</element>
 	<element name="Nimble Leader" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_TACTIC_NIMBLE_LEADER">
@@ -160,7 +160,7 @@
 			<p>On your turn, you can use a bonus action and expend one leadership performance to help allies avoid attacks. Your chosen allies within 30 feet of you may take the Dodge action as a reaction or as a bonus action on their next turn.</p>
 		</description>
 		<sheet usage="Leader Tactics">
-			<description>When you activate this Tactic as a Bonus Action, you expend one Leadership Performance to allow your allies to take the dodge action either immediately as a reaction, or as a bonus action on their next turn. </description>
+			<description>When you activate this Tactic, you expend one Leadership Performance to allow your allies to take the dodge action either immediately as a reaction, or as a bonus action on their next turn. </description>
 		</sheet>
 	</element>
 	<element name="Operations Leader" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_TACTIC_OPERATIONS_LEADER">
@@ -171,7 +171,7 @@
 			<p class="indent"> If you have proficiency with the Stealth skill, this coordination can happen silently via surreptitious signals. If you have proficiency in the Deception skill, this coordination can happen as a serious of code words interspersed with other conversation. An onlooker would need to succeed on a Wisdom (Insight) check contested by your ability check— whether Dexterity (Stealth) or Charisma (Deception)— to realize the coordination is taking place.</p>
 		</description>
 		<sheet usage="Leader Tactics">
-			<description>After preparing this tactic beforehand, you activate this Tactic as a Bonus Action and expend one Leadership Performance to allow your allies to take the Help action as a bonus action to assist eachother with certain skills. You must maintain concentraion to maintain this effect, or otherwise lose it. This effect may take place covertly if you're proficient in Stealth, though an onlooker can detect it with a contested ability check.</description>
+			<description>After preparing this tactic beforehand, you activate this Tactic and expend one Leadership Performance to allow your allies to take the Help action as a bonus action to assist eachother with certain skills. You must maintain concentraion to maintain this effect, or otherwise lose it. This effect may take place covertly if you're proficient in Stealth, though an onlooker can detect it with a contested ability check.</description>
 		</sheet>
 	</element>
 	<element name="Stalwart Leader" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_STALWART_LEADER">
@@ -180,7 +180,7 @@
 			<p>On your turn, you can use a bonus action and expend one leadership performance to steel the resolve of your allies. Make a Charisma (Performance) check. Your chosen allies within 30 feet of you can gain temporary hit points equal to the result.</p>
 		</description>
 		<sheet usage="Leader Tactics">
-			<description>When you activate this Tactic as a Bonus Action, you expend one Leadership Performance and make a Charisma (Performance) check. Your chosen allies within 30 feet of you gain temporary hit points equal to the result. </description>
+			<description>When you activate this Tactic, you expend one Leadership Performance and make a Charisma (Performance) check. Your chosen allies within 30 feet of you gain temporary hit points equal to the result. </description>
 		</sheet>
 	</element>
 	<element name="Strike Leader" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_TACTIC_STRIKE_LEADER">
@@ -189,7 +189,7 @@
 			<p>On your turn, you can use a bonus action and expend one leadership performance to coordinate the attacks of your chosen allies within 30 feet of you against a creature. Until the start of your next turn, your chosen allies make attack rolls with advantage against the creature.</p>
 		</description>
 		<sheet usage="Leader Tactics">
-			<description>When you activate this Tactic as a Bonus Action, you expend one Leadership Performance and choose a creature within 30 feet of you. Until the start of your next turn, your chosen allies make attack rolls with advantage against the chosen creature </description>
+			<description>When you activate this Tactic, you expend one Leadership Performance and choose a creature within 30 feet of you. Until the start of your next turn, your chosen allies make attack rolls with advantage against the chosen creature </description>
 		</sheet>
 	</element>
 </elements>
