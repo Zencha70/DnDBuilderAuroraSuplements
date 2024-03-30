@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="1.1.2">
+			<file name="fighter-commander.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/fighter-commander.xml" />
+		</update>
+	</info>
+
+	<element name="Commander" type="Archetype" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_COMMANDER">
+		<supports>Druid Circle</supports>
+		<description>
+			<p>Commanders are at home on the battlefield, with a group of allies or minions by their side. While bards simply inspire the courage of their companions, commanders know what tactics have the best chance of leading to victory, and know how to motivatepeople to fight well. Most commanders are membersof the military, but many tribal chieftains, rebelleaders, and ship’s captains have the skills and talents of commanders.</p>
+			<p class="indent">In an adventuring party, the commander is not necessarily the leader, though he is the person to listen to when large or complicated combat looms. Players of commander characters are encouraged to research some classic military tactics, because no amount of stat bonuses can balance out genuinely poor planning. Some key tactics to bear in mind include:</p>
+			<p class="indent"><b><i>Encirclement.</i></b>  A foe is best attacked from multiple sides. Likewise, you should maintain an awareness of the battlefield so as not to be surrounded.</p>
+			<p class="indent"><b><i>Overwhelming Force.</i></b> Strike where your foe is weakest. Overwhelming a single target and destroying it prevents your enemy from regrouping and recovering. Defend against your own weaknesses, and plan in case you are attacked there.</p>
+			<p class="indent"><b><i>Hit and Run</i></b> If you cannot field overwhelming force, use your enemy’s size against him. Strike where not expected and retreat, then strike elsewhere while your enemy is distracted. Know when a small mobile force is more useful than a large army.</p>
+			<p class="indent"><b><i>Maneuver.</i></b> Consider where to fight, bearing in mind how to array your forces so they cannot be surrounded, without spreading them so thin that they can be overwhelmed. Know the range at which your enemies are a threat, and take advantage of mobility offered by mounts, vehicles, and magic.</p>
+			<p class="indent"><b><i>Surprise.</i></b>  It is critical to take the initiative, to strike before your opponents can, and to strike accurately. Understand that your plans can unravel in an instant, and have contingencies in place to handle losing the initiative.</p>
+			<p class="indent">Different commanders have different styles, but a commander should usually have Charisma as their highest or second-highest ability score.</p>
+
+			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_BONUS_PROFICIENCY" />
+			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_SQUAD_LEADER" />
+			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_ADVANCED_TACTICS" />
+			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_INSPIRE_SACRIFICE" />
+			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_WIDEN_COMMAND" />
+			<div element="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_TACTICAL_GENIUS" />
+		</description>
+		<sheet display="false">
+			<description>Druids of the Commander mimic nature's adaptability to bring the forces of nature to bear in times of danger.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_BONUS_PROFICIENCY" level="3"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_SQUAD_LEADER" level="3"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_ADVANCED_TACTICS" level="7"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_INSPIRE_SACRIFICE" level="10"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_WIDEN_COMMAND" level="15"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_TACTICUL_GENIUS" level="18"/>
+		</rules>
+	</element>
+
+	<element name="Squad Leader" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_SQUAD_LEADER">
+		<description>
+			<p><em>3rd-Level Commander Feature</em></p>
+			<p>At 3rd level, you learn Leader Tactics that allow your allies to better coordinate as a unit. These tactics are fueled through a series of orders or signals called a Leadership Performance.</p>
+			<p class="indent"><b><i>Leader Tactics.</i></b> You learn 1 tactic of your choice, from the list detailed under “Tactics” below. The tactics affect 2 allies of your choice within 30 feet of you who understand a language you speak, and you can choose yourself as one of the allies. The number of chosen allies increases to 3 at 10th level and 4 at 18th level.</p>
+			<p class="indent">You gain an additional tactic of your choice at 7th, 10th, 15th, and 18th level. Each time you learn a new tactic, you can also replace one tactic you know with a different one.</p>
+			<p class="indent"><b><i>Leader Performance.</i></b> You have a number of leadership performances equal to your Charisma modifier. You regain one expended leadership performance when you finish a short rest, and you regain all of your expended leadership performances when you finish a long rest.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You can very effectively coordinate your allies in the thick of battle. You have {{leadership performance:charge}} Leadership Perormances to fuel your Leadership Tactics </description>
+		</sheet>
+		<rules>
+
+			<stat name="leadership performance:charge" value="charisma:modifier" bonus="base" />
+
+			<select type="Archetype Feature" name="Leadership Tactic (Level 2)" supports="Leader Tactics,Commander" number="1" />
+			<select type="Archetype Feature" name="Leadership Tactic (Level 7)" supports="Leader Tactics,Commander" number="1" level="7" />
+			<select type="Archetype Feature" name="Leadership Tactic (Level 10)" supports="Leader Tactics,Commander" number="1" level="10" />
+			<select type="Archetype Feature" name="Leadership Tactic (Level 15)" supports="Leader Tactics,Commander" number="1" level="15" />
+			<select type="Archetype Feature" name="Leadership Tactic (Level 18)" supports="Leader Tactics,Commander" number="1" level="18" />
+		</rules>
+	</element>
+
+	<element name="Bonus Proficiency" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_BONUS_PROFICIENCY">
+		<description>
+			<p><em>3rd-Level Commander Feature</em></p>
+			<p>When you choose this archetype at 3rd level, you gain proficiency in the Performance skill. If you already have proficiency in the Performance skill, you instead gain proficiency in the Deception, Persuasion, or Stealth skill (your choice).</p>
+
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Bonus Proficiency (Samurai)" supports="ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_STEALTH" />
+		</rules>
+	</element>
+	<element name="Advanced Tactics" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_ADVANCED_TACTICS">
+		<description>
+			<p><em>7th-Level Commander Feature</em></p>
+			<p>Beginning at 7th level, you are quick to action to set the stage for your allies. You have advantage on initiative rolls.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on initiative rolls.</description>
+		</sheet>
+	</element>
+	<element name="Inspire Sacrifice" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_INSPIRE_SACRIFICE">
+		<description>
+			<p><em>10th-Level Commander Feature</em></p>
+			<p>At 10th level, when you are targeted by an attack or by a spell or effect that requires a Dexterity Saving throw, an ally within 5 feet of you may use their reaction to interpose their body between you and the attack or effect, granting you 3/4 cover and the following effects. This decision is made by the ally before the attack roll or saving throw is made. You cannot use this feature again until you have finished a short or long rest</p>
+			<p class="indent"><b><i>Attacks.</i></b> You gain a +5 bonus to AC for the attack. If the attack would hit your original AC but misses your boosted AC, the attack hits your ally instead.</p>
+			<p class="indent"><b><i>Saving Throws.</i></b> You gain a +5 bonus to your Dexterity saving throw. Your ally must also make a Dexterity saving throw against the same spell or effect and has disadvantage on the roll.</p>
+		</description>
+		<sheet usage="1/LR">
+			<description>hen you are targeted by an attack or by a spell or effect that requires a Dexterity Saving throw, an ally within 5 feet of you may use their reaction to interpose their body between you and the attack or effect, granting you 3/4 cover and the following effects. </description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_SACRIFICE_ATTACK" />
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_SACRIFICE_SAVING_THROWS" />
+		</rules>
+	</element>
+	<element name="Widen Command" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_WIDEN_COMMAND">
+		<description>
+			<p><em>15th-Level Commander Feature</em></p>
+			<p>At 15th level, the range at which you can affect allies with your tactics increases from 30 feet to 60 feet.</p>
+		</description>
+		<sheet>
+			<description>The range at which you can affect allies with your tactics increases from 30 feet to 60 feet.</description>
+		</sheet>
+	</element>
+	<element name="Tactical Genius" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_COMMANDER_TACTICAL_GENIUS">
+		<description>
+			<p><em>18th-Level Commander Feature</em></p>
+			<p>At 18th level, you can use your action to direct allies within range of your inspiration to perform swift and complicated maneuvers. Up to 4 allies within 60 feet of you may use their reaction to move their speed and take an action, and you can be one of these 4 allies. You cannot use this feature again until you have finished a long rest</p>
+		</description>
+		<sheet usage="1/LR">
+			<description>After using this action, up to 4 allies within 60 feet of you may use their reaction to move their speed and take an action, and you can be one of these 4 allies.</description>
+		</sheet>
+	</element>
+
+	<!-- Sacrifices -->
+
+	<element name="Sacrifice Attack" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_SACRIFICE_ATTACK">
+		<description>
+			<p>You gain a +5 bonus to AC for the attack. If the attack would hit your original AC but misses your boosted AC, the attack hits your ally instead.</p>
+		</description>
+		<sheet usage="Sacrifices">
+			<description>You gain a +5 bonus to AC for the attack. If the attack would hit your original AC but misses your boosted AC, the attack hits your ally instead. </description>
+		</sheet>
+	</element>
+	<element name="Sacrifice Saving Throws" type="Archetype Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_SACRIFICE_SAVING_THROWS">
+		<description>
+			<p>You gain a +5 bonus to your Dexterity saving throw. Your ally must also make a Dexterity saving throw against the same spell or effect and has disadvantage on the roll.</p>
+		</description>
+		<sheet usage="Sacrifices">
+			<description>You gain a +5 bonus to your Dexterity saving throw. Your ally must also make a Dexterity saving throw against the same spell or effect and has disadvantage on the roll. </description>
+		</sheet>
+	</element>
+
+	<!-- Tactics -->
+
+	<element name="Iron-Willed Leader" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_TACTIC_IRON_WILLED_LEADER">
+		<supports>Leader Tactics, Commander</supports>
+		<description>
+			<p>On your turn, you can use a bonus action and expend one leadership performance to help allies break free of one mind-affecting effect. Make a Charisma (Performance) check. If your check beats the DC of the saving throw, your chosen allies within 30 feet of you break free of the effect as if they had succeeded with their saving throw.</p>
+		</description>
+		<sheet usage="Leader Tactics">
+			<description>When you activate this Tactic as a Bonus Action, you expend one Leadership Performance and make a Charisma (Performance) check. If your check beats the DC of any mind affecting effects, your chosen allies within 30 feet break free of the effect. </description>
+		</sheet>
+	</element>
+	<element name="Maneuver Leader" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_TACTIC_MANEUVER_LEADER">
+		<supports>Leader Tactics, Commander</supports>
+		<description>
+			<p>On your turn, you can use a bonus action and expend one leadership performance to grant your chosen allies within 30 feet of you the ability to use their reaction to move up to their speed while either taking the Disengage action, making a single weapon attack, or casting a cantrip with a casting time of one action.</p>
+		</description>
+		<sheet usage="Leader Tactics">
+			<description>When you activate this Tactic as a Bonus Action, you expend one Leadership Performance to allow your chosen allies to use teir reaction to move up to their speed while taking the Disengage, Attack (single weapon attack only), or Cast Spell action (cantrip only). </description>
+		</sheet>
+	</element>
+	<element name="Nimble Leader" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_TACTIC_NIMBLE_LEADER">
+		<supports>Leader Tactics, Commander</supports>
+		<description>
+			<p>On your turn, you can use a bonus action and expend one leadership performance to help allies avoid attacks. Your chosen allies within 30 feet of you may take the Dodge action as a reaction or as a bonus action on their next turn.</p>
+		</description>
+		<sheet usage="Leader Tactics">
+			<description>When you activate this Tactic as a Bonus Action, you expend one Leadership Performance to allow your allies to take the dodge action either immediately as a reaction, or as a bonus action on their next turn. </description>
+		</sheet>
+	</element>
+	<element name="Operations Leader" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_TACTIC_OPERATIONS_LEADER">
+		<supports>Leader Tactics, Commander</supports>
+		<description>
+			<p>When you take this tactic, you devise a set of communication cues. Any allies who have received this training—usually taking ten minutes of discussion and practice—do not need to share a language with you to benefit from one of your tactics.</p>
+			<p class="indent"> Additionally on your turn, you can use a bonus action and expend one leadership performance to make it easier for you and your allies to help eachother with certain skills. While this coordination is in place, your chosen allies can take the Help action as a bonus action to help each other. This coordination requires you to maintain concentration, and both chosen allies—the one with the skill proficiency and the one making the ability check—to be within 30 feet of you at the time of the ability check. You can use your bonus action to change which allies benefit from the coordination each turn. You can concentrate on this coordination for up to 10 minutes. The skills that can benefit from this are Acrobatics, Animal Handling, Athletics, Deception, Insight, Intimidation, Investigation, Stealth, and Survival. This might be used to help the team navigate difficult terrain, maintain a façade while undercover, or perform an ambush.</p>
+			<p class="indent"> If you have proficiency with the Stealth skill, this coordination can happen silently via surreptitious signals. If you have proficiency in the Deception skill, this coordination can happen as a serious of code words interspersed with other conversation. An onlooker would need to succeed on a Wisdom (Insight) check contested by your ability check— whether Dexterity (Stealth) or Charisma (Deception)— to realize the coordination is taking place.</p>
+		</description>
+		<sheet usage="Leader Tactics">
+			<description>After preparing this tactic beforehand, you activate this Tactic as a Bonus Action and expend one Leadership Performance to allow your allies to take the Help action as a bonus action to assist eachother with certain skills. You must maintain concentraion to maintain this effect, or otherwise lose it. This effect may take place covertly if you're proficient in Stealth, though an onlooker can detect it with a contested ability check.</description>
+		</sheet>
+	</element>
+	<element name="Stalwart Leader" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_STALWART_LEADER">
+		<supports>Leader Tactics, Commander</supports>
+		<description>
+			<p>On your turn, you can use a bonus action and expend one leadership performance to steel the resolve of your allies. Make a Charisma (Performance) check. Your chosen allies within 30 feet of you can gain temporary hit points equal to the result.</p>
+		</description>
+		<sheet usage="Leader Tactics">
+			<description>When you activate this Tactic as a Bonus Action, you expend one Leadership Performance and make a Charisma (Performance) check. Your chosen allies within 30 feet of you gain temporary hit points equal to the result. </description>
+		</sheet>
+	</element>
+	<element name="Strike Leader" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_TACTIC_STRIKE_LEADER">
+		<supports>Leader Tactics, Commander</supports>
+		<description>
+			<p>On your turn, you can use a bonus action and expend one leadership performance to coordinate the attacks of your chosen allies within 30 feet of you against a creature. Until the start of your next turn, your chosen allies make attack rolls with advantage against the creature.</p>
+		</description>
+		<sheet usage="Leader Tactics">
+			<description>When you activate this Tactic as a Bonus Action, you expend one Leadership Performance and choose a creature within 30 feet of you. Until the start of your next turn, your chosen allies make attack rolls with advantage against the chosen creature </description>
+		</sheet>
+	</element>
+</elements>
