@@ -151,7 +151,7 @@
 			<p>On your turn, you can use a bonus action and expend one leadership performance to grant your chosen allies within 30 feet of you the ability to use their reaction to move up to their speed while either taking the Disengage action, making a single weapon attack, or casting a cantrip with a casting time of one action.</p>
 		</description>
 		<sheet usage="Leader Tactics">
-			<description>When you activate this Tactic, you expend one Leadership Performance to allow your chosen allies to use teir reaction to move up to their speed while taking the Disengage, Attack (single weapon attack only), or Cast Spell action (cantrip only). </description>
+			<description>When you activate this Tactic, you expend one Leadership Performance to allow your chosen allies to use their reaction to move up to their speed while taking the Disengage, Attack (single weapon attack only), or Cast Spell action (cantrip only). </description>
 		</sheet>
 	</element>
 	<element name="Nimble Leader" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_TACTIC_NIMBLE_LEADER">
