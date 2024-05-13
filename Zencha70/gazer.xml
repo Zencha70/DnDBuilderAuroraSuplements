@@ -3,7 +3,7 @@
 	<info>
 		<name>Gazer</name>
 		<description>Gazer creature from Mordenkainen Presents: Monsters of the Multiverse.</description>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="companions.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/gazer.xml" />
 		</update>
 	</info>
@@ -29,7 +29,7 @@
 			<set name="alignment">neutral evil</set>
 			<set name="challenge">1/2</set>
 			<set name="traits">ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_MIMICRY</set>
-			<set name="actions">ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_BITE,ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_AGGRESSIVE,ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_EYE_RAYS</set>
+			<set name="actions">ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_BITE,ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_EYE_RAYS,ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_AGGRESSIVE</set>
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="13" />
