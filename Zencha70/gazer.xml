@@ -3,7 +3,7 @@
 	<info>
 		<name>Gazer</name>
 		<description>Gazer creature from Mordenkainen Presents: Monsters of the Multiverse.</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="companions.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/gazer.xml" />
 		</update>
 	</info>
