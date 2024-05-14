@@ -3,7 +3,7 @@
 	<info>
 		<name>Gazer</name>
 		<description>Gazer creature from Mordenkainen Presents: Monsters of the Multiverse.</description>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="companions.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/gazer.xml" />
 		</update>
 	</info>
@@ -67,11 +67,50 @@
 			<p style="text-indent: -1em; margin-left: 1em"><strong><em>4: Telekinetic Ray.</em></strong>  If the target is a creature that is Medium or smaller, it must succeed on a DC 12 Strength saving throw or be moved up to 30 feet directly away from the gazer. If the target is a Tiny object that isn't being worn or carried, the gazer moves it up to 30 feet in any direction. The gazer can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a container.</p>
 		</description>
 		<sheet>
-				<description>The gazer shoots two of the following magical eye rays at random (roll two d4s, and reroll duplicates), choosing one or two targets it can see within 60 feet of it: &#13;
-				1: Dazing Ray. The targeted creature must succeed on a DC 12 Wisdom saving throw or be charmed until the start of the gazer's next turn. While the target is charmed in this way, its speed is halved, and it has disadvantage on attack rolls. &#13;
-				2: Fear Ray. The targeted creature must succeed on a DC 12 Wisdom saving throw or be frightened until the start of the gazer's next turn. &#13;
-				3: Frost Ray.  The target must succeed on a DC 12 Dexterity saving throw or take 10 (3d6) cold damage. &#13;
-				4: Telekinetic Ray.  If the target is a creature that is Medium or smaller, it must succeed on a DC 12 Strength saving throw or be moved up to 30 feet directly away from the gazer. If the target is a Tiny object that isn't being worn or carried, the gazer moves it up to 30 feet in any direction. The gazer can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a container. </description>
+			<description>The gazer shoots two of the following magical eye rays at random (roll two d4s, and reroll duplicates), choosing one or two targets it can see within 60 feet of it:</description>
+		</sheet>
+	</element>
+		<rules>
+			<select type="Companion Action" name="Eye Rays" default="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY1" default-behaviour="force" />
+			<select type="Companion Action" name="Eye Rays" default="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY2" default-behaviour="force" />
+			<select type="Companion Action" name="Eye Rays" default="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY3" default-behaviour="force" />
+			<select type="Companion Action" name="Eye Rays" default="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY4" default-behaviour="force" />
+		</rules>
+	</element>
+
+	<element name="1: Dazing Ray" type="Companion Action" source="Mordenkainen Presents: Monsters of the Multiverse" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY1">
+		<description>
+			<p style="text-indent: -1em; margin-left: 1em"><strong><em>1: Dazing Ray.</em></strong> The targeted creature must succeed on a DC 12 Wisdom saving throw or be charmed until the start of the gazer's next turn. While the target is charmed in this way, its speed is halved, and it has disadvantage on attack rolls.</p>
+		</description>
+		<sheet>
+			<description>The targeted creature must succeed on a DC 12 Wisdom saving throw or be charmed until the start of the gazer's next turn. While the target is charmed in this way, its speed is halved, and it has disadvantage on attack rolls.</description>
+		</sheet>
+	</element>
+
+	<element name="2: Fear Ray" type="Companion Action" source="Mordenkainen Presents: Monsters of the Multiverse" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY2">
+		<description>
+			<p style="text-indent: -1em; margin-left: 1em"><strong><em>2: Fear Ray.</em></strong> The targeted creature must succeed on a DC 12 Wisdom saving throw or be frightened until the start of the gazer's next turn.</p>
+		</description>
+		<sheet>
+			<description>The targeted creature must succeed on a DC 12 Wisdom saving throw or be frightened until the start of the gazer's next turn.</description>
+		</sheet>
+	</element>
+
+	<element name="3: Frost Ray" type="Companion Action" source="Mordenkainen Presents: Monsters of the Multiverse" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY3">
+		<description>
+			<p style="text-indent: -1em; margin-left: 1em"><strong><em>3: Frost Ray.</em></strong>  The target must succeed on a DC 12 Dexterity saving throw or take 10 (3d6) cold damage.</p>
+		</description>
+		<sheet>
+			<description>The target must succeed on a DC 12 Dexterity saving throw or take 10 (3d6) cold damage.</description>
+		</sheet>
+	</element>
+
+	<element name="4: Telekinetic Ray" type="Companion Action" source="Mordenkainen Presents: Monsters of the Multiverse" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY4">
+		<description>
+			<p style="text-indent: -1em; margin-left: 1em"><strong><em>4: Telekinetic Ray.</em></strong>  If the target is a creature that is Medium or smaller, it must succeed on a DC 12 Strength saving throw or be moved up to 30 feet directly away from the gazer. If the target is a Tiny object that isn't being worn or carried, the gazer moves it up to 30 feet in any direction. The gazer can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a container.</p>
+		</description>
+		<sheet>
+			<description>If the target is a creature that is Medium or smaller, it must succeed on a DC 12 Strength saving throw or be moved up to 30 feet directly away from the gazer. If the target is a Tiny object that isn't being worn or carried, the gazer moves it up to 30 feet in any direction. The gazer can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a container.</description>
 		</sheet>
 	</element>
 	<element name="Aggressive (Bonus Action)" type="Companion Action" source="Mordenkainen Presents: Monsters of the Multiverse" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_AGGRESSIVE">
