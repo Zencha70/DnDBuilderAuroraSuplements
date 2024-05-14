@@ -3,7 +3,7 @@
 	<info>
 		<name>Gazer</name>
 		<description>Gazer creature from Mordenkainen Presents: Monsters of the Multiverse.</description>
-		<update version="0.0.11">
+		<update version="0.0.12">
 			<file name="companions.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/gazer.xml" />
 		</update>
 	</info>
@@ -70,10 +70,10 @@
 			<description>The gazer shoots two of the following magical eye rays at random (roll two d4s, and reroll duplicates), choosing one or two targets it can see within 60 feet of it:</description>
 		</sheet>
 		<rules>
-			<select type="Companion Action" name="Eye Rays" supports="Ray,Cool Ray" default="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY1" default-behaviour="force" />
-			<select type="Companion Action" name="Eye Rays" supports="Ray,Cool Ray" default="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY2" default-behaviour="force" />
-			<select type="Companion Action" name="Eye Rays" supports="Ray,Cool Ray" default="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY3" default-behaviour="force" />
-			<select type="Companion Action" name="Eye Rays" supports="Ray,Cool Ray" default="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY4" default-behaviour="force" />
+			<select type="Companion Action" name="Eye Rays" supports="Ray,Cool Ray" default="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY1"/>
+			<select type="Companion Action" name="Eye Rays" supports="Ray,Cool Ray" default="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY2"/>
+			<select type="Companion Action" name="Eye Rays" supports="Ray,Cool Ray" default="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY3"/>
+			<select type="Companion Action" name="Eye Rays" supports="Ray,Cool Ray" default="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY4"/>
 		</rules>
 	</element>
 
