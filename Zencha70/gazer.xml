@@ -3,7 +3,7 @@
 	<info>
 		<name>Gazer</name>
 		<description>Gazer creature from Mordenkainen Presents: Monsters of the Multiverse.</description>
-		<update version="0.0.13">
+		<update version="0.0.14">
 			<file name="companions.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/gazer.xml" />
 		</update>
 	</info>
@@ -67,14 +67,12 @@
 			<p style="text-indent: -1em; margin-left: 1em"><strong><em>4: Telekinetic Ray.</em></strong>  If the target is a creature that is Medium or smaller, it must succeed on a DC 12 Strength saving throw or be moved up to 30 feet directly away from the gazer. If the target is a Tiny object that isn't being worn or carried, the gazer moves it up to 30 feet in any direction. The gazer can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a container.</p>
 		</description>
 		<sheet>
-			<description>The gazer shoots two of the following magical eye rays at random (roll two d4s, and reroll duplicates), choosing one or two targets it can see within 60 feet of it:</description>
+			<description>The gazer shoots two of the following magical eye rays at random (roll two d4s, and reroll duplicates), choosing one or two targets it can see within 60 feet of it: &#13;
+			1: Dazing Ray. The targeted creature must succeed on a DC 12 Wisdom saving throw or be charmed until the start of the gazer's next turn. While the target is charmed in this way, its speed is halved, and it has disadvantage on attack rolls. &#13;
+			2: Fear Ray. The targeted creature must succeed on a DC 12 Wisdom saving throw or be frightened until the start of the gazer's next turn. &#13;
+			3: Frost Ray. The target must succeed on a DC 12 Dexterity saving throw or take 10 (3d6) cold damage. &#13;
+			4: Telekinetic Ray. If the target is a creature that is Medium or smaller, it must succeed on a DC 12 Strength saving throw or be moved up to 30 feet directly away from the gazer. If the target is a Tiny object that isn't being worn or carried, the gazer moves it up to 30 feet in any direction. The gazer can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a container.</description>
 		</sheet>
-		<rules>
-			<select type="Companion Action" name="Eye Ray 1" supports="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY1" default="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY1"/>
-			<select type="Companion Action" name="Eye Ray 2" supports="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY2" default="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY2"/>
-			<select type="Companion Action" name="Eye Ray 3" supports="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY3" default="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY3"/>
-			<select type="Companion Action" name="Eye Ray 4" supports="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY4" default="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY4"/>
-		</rules>
 	</element>
 
 	<element name="1: Dazing Ray" type="Companion Action" source="Mordenkainen Presents: Monsters of the Multiverse" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_RAY1">
