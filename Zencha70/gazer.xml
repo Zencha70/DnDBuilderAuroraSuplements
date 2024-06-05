@@ -3,7 +3,7 @@
 	<info>
 		<name>Gazer</name>
 		<description>Gazer creature from Mordenkainen Presents: Monsters of the Multiverse.</description>
-		<update version="0.0.17">
+		<update version="0.0.19">
 			<file name="companions.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/gazer.xml" />
 		</update>
 	</info>
@@ -28,7 +28,7 @@
 			<set name="size">Tiny</set>
 			<set name="alignment">neutral evil</set>
 			<set name="challenge">1/2</set>
-			<set name="traits">ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_MIMICRY</set>
+			<set name="traits">ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_HOVER,ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_MIMICRY</set>
 			<set name="actions">ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_BITE,ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_EYE_RAYS,ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_AGGRESSIVE</set>
 		</setters>
 		<rules>
@@ -50,6 +50,15 @@
 		</sheet>
 	</element>
 
+	<element name="Hover" type="Companion Trait" source="Mordenkainen Presents: Monsters of the Multiverse" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_HOVER">
+		<description>
+			<p>While this creature is flying, if it is knocked prone or is otherwise deprived of the ability to move it stays afloat in its space.</p>
+		</description>
+		<sheet>
+			<description>While this creature is flying, if it is knocked prone or is otherwise deprived of the ability to move it stays afloat in its space.</description>
+		</sheet>
+	</element>
+	
 	<element name="Bite" type="Companion Action" source="Mordenkainen Presents: Monsters of the Multiverse" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_BITE">
 		<description>
 			<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</p>
