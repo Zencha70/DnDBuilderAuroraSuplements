@@ -3,7 +3,7 @@
 	<info>
 		<name>Gazer</name>
 		<description>Gazer creature from Mordenkainen Presents: Monsters of the Multiverse.</description>
-		<update version="0.0.15">
+		<update version="0.0.16">
 			<file name="companions.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/gazer.xml" />
 		</update>
 	</info>
@@ -55,7 +55,7 @@
 			<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</p>
 		</description>
 		<sheet>
-			<description>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</description>
+			<description>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</description>
 		</sheet>
 	</element>
 	<element name="Eye Rays" type="Companion Action" source="Mordenkainen Presents: Monsters of the Multiverse" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_EYE_RAYS">
