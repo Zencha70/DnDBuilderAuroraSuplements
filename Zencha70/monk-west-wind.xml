@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="monk-west-wind.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/monk-west-wind.xml" />
 		</update>
 	</info>
@@ -77,7 +77,6 @@
 			To cast one of your spells, you must expend a number of ki points equal to the spell’s level + 1.
 			You may cast a spell at a higher level by expending an additional ki point for each additional level, but you cannot cast a spell at a higher level than your maximum spell level.</description>
 		</sheet>
-		<rules>
 		<spellcasting name="Monk" ability="Wisdom" prepare="true">
 			<list known="true">Cleric</list>
 		</spellcasting>
