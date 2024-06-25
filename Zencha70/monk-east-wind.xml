@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.10">
+		<update version="0.0.11">
 			<file name="monk-east-wind.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/monk-east-wind.xml" />
 		</update>
 	</info>
@@ -75,8 +75,10 @@
 			</table>				
 		</description>
 		<sheet>
-			<description>To cast one of your spells, you must expend a number of ki points equal to the spell’s level + 1.
+			<description>You can use your ki as your spellcasting focus.
+			To cast one of your spells, you must expend a number of ki points equal to the spell’s level + 1.
 			You may cast a spell at a higher level by expending an additional ki point for each additional level, but you cannot cast a spell at a higher level than your maximum spell level.</description>
+		</sheet>
 		<rules>
 			<select type="Archetype Feature" name="Spellcasting Ability (East Wind)" supports="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_CHA_SPELLCASTING|ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_WIS_SPELLCASTING" />
 		</rules>
