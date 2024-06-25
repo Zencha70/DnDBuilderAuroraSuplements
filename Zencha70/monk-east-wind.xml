@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.9">
+		<update version="0.0.10">
 			<file name="monk-east-wind.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/monk-east-wind.xml" />
 		</update>
 	</info>
@@ -74,7 +74,9 @@
 				<tr><td>20th</td><td>4</td><td>12</td><td>5</td></tr>
 			</table>				
 		</description>
-		<sheet display="false" />
+		<sheet>
+			<description>To cast one of your spells, you must expend a number of ki points equal to the spell’s level + 1.
+			You may cast a spell at a higher level by expending an additional ki point for each additional level, but you cannot cast a spell at a higher level than your maximum spell level.</description>
 		<rules>
 			<select type="Archetype Feature" name="Spellcasting Ability (East Wind)" supports="ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_CHA_SPELLCASTING|ID_HOMEBREW_ZENCHA70_HOMEBREW_ARCHETYPE_FEATURE_WAYOFTHEEASTWIND_WIS_SPELLCASTING" />
 		</rules>
@@ -162,7 +164,8 @@
 			<p class="indent"> You can use only one Metamagic option on a spell when you cast it, unless otherwise noted. To use a metamagic option, you spend a number of ki points equal to the cost in sorcery points.</p>
 		</description>
 		<sheet>
-			<description>You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.</description>
+			<description>You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.
+			To use a metamagic option, you spend a number of ki points equal to the cost in sorcery points.</description>
 		</sheet>
 		<rules>
 			<select type="Class Feature" name="Metamagic" supports="Metamagic" level="3" number="1"/>
