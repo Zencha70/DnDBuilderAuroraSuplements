@@ -3,7 +3,7 @@
 	<info>
 		<name>Gazer</name>
 		<description>Gazer creature from Mordenkainen Presents: Monsters of the Multiverse.</description>
-		<update version="0.0.19">
+		<update version="0.0.20">
 			<file name="companions.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/gazer.xml" />
 		</update>
 	</info>
@@ -42,6 +42,7 @@
 		</rules>
 	</element>
 	<element name="Mimicry" type="Companion Trait" source="Mordenkainen Presents: Monsters of the Multiverse" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_COMPANION_GAZER_MIMICRY">
+		<requirements>[level:9]</requirements>
 		<description>
 			<p>The gazer can mimic simple sounds of speech it has heard, in any language. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.</p>
 		</description>
