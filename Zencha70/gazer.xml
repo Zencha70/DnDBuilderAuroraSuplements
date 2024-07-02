@@ -3,7 +3,7 @@
 	<info>
 		<name>Gazer</name>
 		<description>Gazer creature from Mordenkainen Presents: Monsters of the Multiverse.</description>
-		<update version="0.0.23">
+		<update version="0.0.24">
 			<file name="companions.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/gazer.xml" />
 		</update>
 	</info>
@@ -81,7 +81,7 @@
 			<description>The gazer shoots one of the following magical eye rays at random (roll 1d4, reroll duplicates and 4's), choosing one target it can see within 60 feet of it: &#13;
 			1: Fear Ray. The targeted creature must succeed on a Wisdom saving throw with a DC equal to the Player's Spell Save DC or be frightened until the start of the gazer's next turn. &#13;
 			2: Frost Ray. The target must succeed on a  Dexterity saving throw with a DC equal to the Player's Spell Save DC or take 4 (2d6) cold damage. &#13;
-			3: Telekinetic Ray. The targeted creature must succeed on a Wisdom saving throw with a DC equal to the Player's Spell Save DC or be frightened until the start of the gazer's next turn.</description>
+			3: Telekinetic Ray. If the target is a creature that is Medium or smaller, it must succeed on a Strength saving throw with a DC equal to the Player's Spell Save DC or be moved up to 15 feet directly away from the gazer. If the target is a Tiny object that isn't being worn or carried, the gazer moves it up to 15 feet in any direction. The gazer can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a container.</description>
 		</sheet>
 	</element>
 
