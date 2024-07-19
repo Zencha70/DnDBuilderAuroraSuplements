@@ -3,7 +3,7 @@
 	<info>
 		<name>Gazer</name>
 		<description>Gazer creature from Mordenkainen Presents: Monsters of the Multiverse.</description>
-		<update version="0.0.25">
+		<update version="0.0.26">
 			<file name="companions.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/gazer.xml" />
 		</update>
 	</info>
@@ -38,7 +38,6 @@
 			<stat name="companion:speed" value="0" bonus="base" />
 			<stat name="companion:speed:fly" value="30" bonus="base" />
 			<stat name="companion:wisdom:save:proficiency" value="companion:proficiency" bonus="proficiency" />
-			<stat name="companion:proficiency" value="proficiency" bonus="proficiency"/>
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="double" />
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
