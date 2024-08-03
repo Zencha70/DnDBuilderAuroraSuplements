@@ -4,7 +4,7 @@
 		<name>Monk 2024</name>
 		<description>The Monk class from the 2024 Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.2.20">
+		<update version="0.2.21">
 			<file name="Monk-2024.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/Monk-2024.xml" />
 		</update>
 	</info>
@@ -224,7 +224,7 @@
 			<description>You have {{ki:points}} Focus Points and your Focus DC is {{ki:dc}}</description>
 		</sheet>
 		<rules>
-			<stat name="ki:points" value="level:monk" />
+			<stat name="ki:points" value="level:monk 2024" />
 			<stat name="ki:dc" value="8" />
 			<stat name="ki:dc" value="proficiency" />
 			<stat name="ki:dc" value="wisdom:modifier" />
@@ -356,11 +356,11 @@
 			<description>Reduce any falling damage you take by {{monk:slowfall}}.</description>
 		</sheet>
 		<rules>
-			<stat name="monk:slowfall" value="level:monk" />
-			<stat name="monk:slowfall" value="level:monk" />
-			<stat name="monk:slowfall" value="level:monk" />
-			<stat name="monk:slowfall" value="level:monk" />
-			<stat name="monk:slowfall" value="level:monk" />
+			<stat name="monk:slowfall" value="level:monk 2024" />
+			<stat name="monk:slowfall" value="level:monk 2024" />
+			<stat name="monk:slowfall" value="level:monk 2024" />
+			<stat name="monk:slowfall" value="level:monk 2024" />
+			<stat name="monk:slowfall" value="level:monk 2024" />
 		</rules>
 	</element>
 
