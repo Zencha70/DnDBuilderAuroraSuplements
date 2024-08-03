@@ -4,7 +4,7 @@
 		<name>Monk 2024</name>
 		<description>The Monk class from the 2024 Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.2.21">
+		<update version="0.2.22">
 			<file name="Monk-2024.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/Monk-2024.xml" />
 		</update>
 	</info>
@@ -25,7 +25,7 @@
 			<h4>CREATING A MONK</h4>
 			<p>As you make your monk character, think about your connection to the monastery where you learned your skills and spent your formative years. Were you an orphan or a child left on the monastery’s threshold? Did your parents promise you to the monastery in gratitude for a service performed by the monks? Did you enter this secluded life to hide from a crime you committed? Or did you choose the monastic life for yourself?</p>
 			<p class="indent">Consider why you left. Did the head of your monastery choose you for a particularly important mission beyond the cloister? Perhaps you were cast out because of some violation of the community’s rules. Did you dread leaving, or were you happy to go? Is there something you hope to accomplish outside the monastery? Are you eager to return to your home?</p>
-			<p class="indent">As a result of the structured life of a monastic community and the discipline required to harness ki, monks are almost always lawful in alignment.</p>
+			<p class="indent">As a result of the structured life of a monastic community and the discipline required to harness Focus, monks are almost always lawful in alignment.</p>
 			<h5 class="caption">QUICK BUILD</h5>
 			<p>You can make a monk quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom. Second, choose the hermit background.</p>
 			<h3>CLASS FEATURES</h3>
@@ -428,10 +428,10 @@
 
 	<element name="Tongue of the Sun and Moon" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_TONGUE_OF_THE_SUN_AND_MOON">
 		<description>
-			<p>Starting at 13th level, you learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say.</p>
+			<p>Starting at 13th level, you learn to touch the Focus of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say.</p>
 		</description>
 		<sheet>
-			<description>You learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say.</description>
+			<description>You learn to touch the Focus of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say.</description>
 		</sheet>
 	</element>
 
@@ -449,7 +449,7 @@
 
 	<element name="Diamond Soul" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_DIAMOND_SOUL">
 		<description>
-			<p>Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws.</p>
+			<p>Beginning at 14th level, your mastery of Focus grants you proficiency in all saving throws.</p>
 			<p class="indent">Additionally, whenever you make a saving throw and fail, you can spend 1 focus point to reroll it and take the second result.</p>
 		</description>
 		<sheet usage="Focus">
