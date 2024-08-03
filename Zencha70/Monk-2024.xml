@@ -4,7 +4,7 @@
 		<name>Monk</name>
 		<description>The Monk class from the 2024 Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.2.24">
+		<update version="0.2.25">
 			<file name="Monk-2024.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/Monk-2024.xml" />
 		</update>
 	</info>
@@ -135,7 +135,6 @@
 			<grant type="Class Feature" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_TONGUE_OF_THE_SUN_AND_MOON" level="13" />
 			<grant type="Class Feature" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_PERFECT_FOCUS" level="15" />
 			<grant type="Class Feature" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_DIAMOND_SOUL" level="14" />
-			<grant type="Class Feature" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_EMPTY_BODY" level="18" />
 			<grant type="Class Feature" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_SUPERIOR_DEFENSE" level="18" />
 			<grant type="Class Feature" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_EPIC_BOON" level="19" />
 			<grant type="Class Feature" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_BODY_AND_MIND" level="20" />
