@@ -4,7 +4,7 @@
 		<name>Monk</name>
 		<description>The Monk class from the 2024 Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.2.28">
+		<update version="0.2.29">
 			<file name="Monk-2024.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/Monk-2024.xml" />
 		</update>
 	</info>
@@ -316,13 +316,13 @@
 	<element name="Deflect Attacks" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_DEFLECT_ATTACKS">
 		<description>
 			<p>Starting at 3rd level, you can use your reaction to reduce the damage of melee or ranged attacks that deal Bludgeoning, Piercing, or Slashing damage by 1d10+ Dexterity + Monk level. </p>
-			<p class="indent">If you reduce the damage to 0, you can spend 1 Focus Point to redirect damage. Melee attacks can be directed at a creature within 5 feet, while ranged against a creature within 60 feet. The target makes a Dexterity saving throw or takes damage equal to two rolls of your Martial Arts die plus your Dexterity modifier.</p>
+			<p class="indent">If you reduce the damage to 0, you can spend 1 Focus Point to redirect damage. Melee attacks can be directed at a creature within 5 feet, while ranged against a creature within 60 feet. The target must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die plus your Dexterity modifier.</p>
 		</description>
 		<sheet action="Reaction">
 			<description>You can use your reaction to reduce the damage of melee or ranged attacks that deal Bludgeoning, Piercing, or Slashing damage by 1d10+{{monk:deflect attacks bonus}}.
-			If you reduce the damage to 0, you can spend 1 Focus Point to redirect damage. Melee attacks can be directed at a creature within 5 feet, while ranged against a creature within 60 feet. The target makes a Dexterity saving throw or takes damage equal to 2d{{monk:deflect attack damage}}+{{monk:deflect attack damage modifier}}.</description>
+			If you reduce the damage to 0, you can spend 1 Focus Point to redirect damage. Melee attacks can be directed at a creature within 5 feet, while ranged against a creature within 60 feet. The target must succeed on a DC{{ki:dc}} Dexterity saving throw or takes damage equal to 2d{{monk:deflect attack damage}}+{{monk:deflect attack damage modifier}}.</description>
 			<description level="13">You can use your reaction to reduce the damage of any melee or ranged attacks by 1d10+{{monk:deflect attacks bonus}}.
-			If you reduce the damage to 0, you can spend 1 Focus Point to redirect damage. Melee attacks can be directed at a creature within 5 feet, while ranged against a creature within 60 feet. The target makes a Dexterity saving throw or takes damage equal to 2d{{monk:deflect attack damage}}+{{monk:deflect attack damage modifier}}.</description>
+			If you reduce the damage to 0, you can spend 1 Focus Point to redirect damage. Melee attacks can be directed at a creature within 5 feet, while ranged against a creature within 60 feet. The target must succeed on a DC{{ki:dc}} Dexterity saving throw or take damage equal to 2d{{monk:deflect attack damage}}+{{monk:deflect attack damage modifier}}.</description>
 		</sheet>
 		<rules>
 			<stat name="monk:deflect attacks bonus" value="dexterity:modifier" />
