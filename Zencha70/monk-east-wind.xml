@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.11">
+		<update version="0.0.12">
 			<file name="monk-east-wind.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/monk-east-wind.xml" />
 		</update>
 	</info>
@@ -89,6 +89,8 @@
 		<spellcasting name="Monk" ability="Charisma" allowReplace="true">
 			<list known="true">Sorcerer</list>
 		</spellcasting>
+		<sheet display="false">
+                </sheet>
 		<rules>
 			<stat name="monk:spellcasting:slots:1" value="1" level="3" />
 			<stat name="monk:spellcasting:slots:2" value="1" level="5" />
@@ -113,6 +115,8 @@
 		<spellcasting name="Monk" ability="Wisdom" allowReplace="true">
 			<list known="true">Sorcerer</list>
 		</spellcasting>
+		<sheet display="false">
+                </sheet>
 		<rules>
 			<stat name="monk:spellcasting:slots:1" value="1" level="3" />
 			<stat name="monk:spellcasting:slots:2" value="1" level="5" />
@@ -148,7 +152,9 @@
 			<p><em>3rd-Level Way of the East Wind Feature</em></p>
 			<p>At 3rd level, you learn to harness your emotions to focus and unleash your ki. You may use either your Wisdom or Charisma modifier, whichever is higher, in the calculation of your Unarmored Defense, monk spellcasting ability, and the DC of your Stunning Strike.</p>
 		</description>
-		<sheet display="false" />
+		<sheet>
+			<description>You may use either your Wisdom or Charisma modifier, whichever is higher, in the calculation of your Unarmored Defense, monk spellcasting ability, and the DC of your Stunning Strike.</description>
+		</sheet>
 		<rules>
 			<stat name="ki:dc" value="-wisdom:modifier" />
 			<stat name="ki:dc" value="wisdom:modifier" bonus="ability" />
