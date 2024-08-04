@@ -4,7 +4,7 @@
 		<name>Monk</name>
 		<description>The Monk class from the 2024 Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.2.27">
+		<update version="0.2.28">
 			<file name="Monk-2024.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/Monk-2024.xml" />
 		</update>
 	</info>
@@ -320,13 +320,18 @@
 		</description>
 		<sheet action="Reaction">
 			<description>You can use your reaction to reduce the damage of melee or ranged attacks that deal Bludgeoning, Piercing, or Slashing damage by 1d10+{{monk:deflect attacks bonus}}.
-			If you reduce the damage to 0, you can spend 1 Focus Point to redirect damage. Melee attacks can be directed at a creature within 5 feet, while ranged against a creature within 60 feet. The target makes a Dexterity saving throw or takes damage equal to two rolls of your Martial Arts die plus your Dexterity modifier.</description>
+			If you reduce the damage to 0, you can spend 1 Focus Point to redirect damage. Melee attacks can be directed at a creature within 5 feet, while ranged against a creature within 60 feet. The target makes a Dexterity saving throw or takes damage equal to 2d{{monk:deflect attack damage}}+{{monk:deflect attack damage modifier}}.</description>
 			<description level="13">You can use your reaction to reduce the damage of any melee or ranged attacks by 1d10+{{monk:deflect attacks bonus}}.
-			If you reduce the damage to 0, you can spend 1 Focus Point to redirect damage. Melee attacks can be directed at a creature within 5 feet, while ranged against a creature within 60 feet. The target makes a Dexterity saving throw or takes damage equal to two rolls of your Martial Arts die plus your Dexterity modifier.</description>
+			If you reduce the damage to 0, you can spend 1 Focus Point to redirect damage. Melee attacks can be directed at a creature within 5 feet, while ranged against a creature within 60 feet. The target makes a Dexterity saving throw or takes damage equal to 2d{{monk:deflect attack damage}}+{{monk:deflect attack damage modifier}}.</description>
 		</sheet>
 		<rules>
 			<stat name="monk:deflect attacks bonus" value="dexterity:modifier" />
 			<stat name="monk:deflect attacks bonus" value="level:monk" />
+
+			
+			<stat name="monk:deflect attack damage" value="martial arts:dice" />
+			<stat name="monk:deflect attack damage modifier" value="dexterity:modifier" />
+			
 		</rules>
 	</element>
 
