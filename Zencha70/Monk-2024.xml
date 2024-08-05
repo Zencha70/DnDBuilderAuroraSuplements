@@ -4,7 +4,7 @@
 		<name>Monk</name>
 		<description>The Monk class from the 2024 Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.2.29">
+		<update version="0.2.30">
 			<file name="Monk-2024.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/Monk-2024.xml" />
 		</update>
 	</info>
@@ -251,7 +251,7 @@
 		</description>
 		<sheet action="Bonus Action" usage="Focus">
 			<description>You can Disengage action as a bonus action. You can spend 1 focus point to also take the Dodge action as part of the bonus action.</description>
-			<description level="10">You can Disengage action as a bonus action. You can spend 1 focus point to also take the Dodge action as part of the bonus action. Additionally, starting at level 10 when you expend a focus point for this feature, it grants you Temporary Hit Points equal to two rolls of your Martial Arts die.</description>
+			<description level="10">You can Disengage action as a bonus action. You can spend 1 focus point to also take the Dodge action as part of the bonus action. Additionally, starting at level 10 when you expend a focus point for this feature, it grants you Temporary Hit Points equal to 2d{{martial arts:dice}}.</description>
 		</sheet>
 	</element>
 
@@ -387,7 +387,7 @@
 			<p>Starting at 5th level, you can interfere with the flow of Focus in an opponent’s body. When you hit another creature with a Monk weapon or Unarmed Strike, you can spend 1 focus point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the start of your next turn. On a successful save, the target's Speed is halved, and the next attack against them has Advantage. You can only use Stunning Strike once per turn.</p>
 		</description>
 		<sheet usage="Focus">
-			<description>When you hit another creature with a Monk weapon or Unarmed Strike, you can spend 1 focus point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the start of your next turn. On a successful save, the target's Speed is halved, and the next attack against them has Advantage. You can only use Stunning Strike once per turn.</description>
+			<description>When you hit another creature with a Monk weapon or Unarmed Strike, you can spend 1 focus point to attempt a stunning strike. The target must succeed on a DC{{ki:dc}} Constitution saving throw or be stunned until the start of your next turn. On a successful save, the target's Speed is halved, and the next attack against them has Advantage. You can only use Stunning Strike once per turn.</description>
 		</sheet>
 	</element>
 
