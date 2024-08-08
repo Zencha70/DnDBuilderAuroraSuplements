@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Energy Substitution</name>
+		<description>Feat from the War of the Burning Sky.</description>
+		<update version="0.0.1">
+			<file name="feats.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/feats.xml" />
+		</update>
+	</info>
+
+	<element name="Energy Substitution" type="Feat" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_FEAT_ENERGY_SUBSTITUTION">
+		<prerequisite>The ability to cast at least one spell</prerequisite>
+		<requirements>[type:spell]</requirements>
+		<description>
+			<p>When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder. Your extensive study of magic of that damage type yields the following benefits:</p>
+			<ul>
+				<li>Increase your spellcasting ability score by 1, to a maximum of 20.</li>
+				<li>When you cast a spell that deals acid, cold, fire, lightning, or thunder damage, you can change the damage to the chosen type. Your GM may decide that some spell effects change when the damage type changes. For example, a cold fireball would not set objects on fire, but it might extinguish flames in the area. You may select this feat multiple times. Each time you do so, you must choose a different damage type.</li>
+			</ul>
+		</description>
+		<sheet display="false" />
+			<description>When you cast a spell that deals a type of damage from the following list, you can change that damage type to the damage type chosen for this feat: acid, cold, fire, lightning, thunder.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Improvement (Energy Substitution)" supports="ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_CHARISMA" />
+			<select type="Feat Feature" name="Energy Substitution" supports="Energy Type" />
+		</rules>
+	</element>
+
+	<element name="Acid" type="Feat Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_FEAT_ENERGY_SUBSTITUTION_ACID">
+		<compendium display="false" />
+		<supports>Energy Type</supports>
+		<description>
+			<p>When you cast a spell that deals a type of damage from the following list, you can change that damage type to acid.</p>
+		</description>
+		<sheet alt="Energy Substitution, Acid">
+			<description>When you cast a spell that deals a type of damage from the following list, you can change that damage type to acid.</description>
+		</sheet>
+	</element>
+	<element name="Cold" type="Feat Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_FEAT_ENERGY_SUBSTITUTION_COLD">
+		<compendium display="false" />
+		<supports>Energy Type</supports>
+		<description>
+			<p>When you cast a spell that deals a type of damage from the following list, you can change that damage type to cold.</p>
+		</description>
+		<sheet alt="Energy Substitution, Cold">
+			<description>When you cast a spell that deals a type of damage from the following list, you can change that damage type to cold.</description>
+		</sheet>
+	</element>
+	<element name="Fire" type="Feat Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_FEAT_ENERGY_SUBSTITUTION_FIRE">
+		<compendium display="false" />
+		<supports>Energy Type</supports>
+		<description>
+			<p>When you cast a spell that deals a type of damage from the following list, you can change that damage type to fire.</p>
+		</description>
+		<sheet alt="Energy Substitution, Fire">
+			<description>When you cast a spell that deals a type of damage from the following list, you can change that damage type to fire.</description>
+		</sheet>
+	</element>
+	<element name="Lightning" type="Feat Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_FEAT_ENERGY_SUBSTITUTION_LIGHTNING">
+		<compendium display="false" />
+		<supports>Energy Type</supports>
+		<description>
+			<p>When you cast a spell that deals a type of damage from the following list, you can change that damage type to lightning.</p>
+		</description>
+		<sheet alt="Energy Substitution, Lightning">
+			<description>When you cast a spell that deals a type of damage from the following list, you can change that damage type to lightning.</description>
+		</sheet>
+	</element>
+	<element name="Thunder" type="Feat Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_FEAT_ENERGY_SUBSTITUTION_THUNDER">
+		<compendium display="false" />
+		<supports>Energy Type</supports>
+		<description>
+			<p>When you cast a spell that deals a type of damage from the following list, you can change that damage type to thunder.</p>
+		</description>
+		<sheet alt="Energy Substitution, Thunder">
+			<description>When you cast a spell that deals a type of damage from the following list, you can change that damage type to thunder.</description>
+		</sheet>
+	</element>
+</elements>
