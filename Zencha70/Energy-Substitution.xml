@@ -3,7 +3,7 @@
 	<info>
 		<name>Energy Substitution</name>
 		<description>Feat from the War of the Burning Sky.</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="feats.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/Energy-Substitution.xml" />
 		</update>
 	</info>
@@ -19,8 +19,6 @@
 			</ul>
 		</description>
 		<sheet display="false" />
-			<description>When you cast a spell that deals a type of damage from the following list, you can change that damage type to the damage type chosen for this feat: acid, cold, fire, lightning, thunder.</description>
-		</sheet>
 		<rules>
 			<select type="Ability Score Improvement" name="Ability Score Improvement (Energy Substitution)" supports="ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_CHARISMA" />
 			<select type="Feat Feature" name="Energy Substitution" supports="Energy Type" />
