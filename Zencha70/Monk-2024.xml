@@ -4,7 +4,7 @@
 		<name>Monk</name>
 		<description>The Monk class from the 2024 Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.2.30">
+		<update version="0.2.31">
 			<file name="Monk-2024.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/Monk-2024.xml" />
 		</update>
 	</info>
@@ -250,8 +250,8 @@
 			<p>You can Disengage action as a bonus action. You can spend 1 focus point to also take the Dodge action as part of the bonus action.</p>
 		</description>
 		<sheet action="Bonus Action" usage="Focus">
-			<description>You can Disengage action as a bonus action. You can spend 1 focus point to also take the Dodge action as part of the bonus action.</description>
-			<description level="10">You can Disengage action as a bonus action. You can spend 1 focus point to also take the Dodge action as part of the bonus action. Additionally, starting at level 10 when you expend a focus point for this feature, it grants you Temporary Hit Points equal to 2d{{martial arts:dice}}.</description>
+			<description>You can take the Disengage action as a bonus action. You can spend 1 focus point to also take the Dodge action as part of the bonus action.</description>
+			<description level="10">You can take the Disengage action as a bonus action. You can spend 1 focus point to also take the Dodge action as part of the bonus action. When you expend a focus point for this feature, it grants you Temporary Hit Points equal to 2d{{martial arts:dice}}.</description>
 		</sheet>
 	</element>
 
@@ -262,7 +262,7 @@
 		</description>
 		<sheet action="Bonus Action" usage="Focus">
 			<description>You can take the Dash action as a bonus action. You can spend 1 focus point to also take the Disengage action and have your jump distance doubled for the rest of the your turn as part of the bonus action.</description>
-			<description level="10">You can take the Dash action as a bonus action. You can spend 1 focus point to also take the Disengage action and have your jump distance doubled for the rest of the your turn as part of the bonus action. Additionally, starting at level 10 when you expend a focus point for this feature, you can move one willing creature with you on your move this turn.</description>
+			<description level="10">You can take the Dash action as a bonus action. You can spend 1 focus point to also take the Disengage action and have your jump distance doubled for the rest of the your turn as part of the bonus action. When you expend a focus point for this feature, you can move one willing creature with you on your move this turn.</description>
 		</sheet>
 	</element>
 
