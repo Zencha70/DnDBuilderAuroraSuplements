@@ -4,7 +4,7 @@
 		<name>Monk</name>
 		<description>The Monk class from the 2024 Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.2.32">
+		<update version="0.2.33">
 			<file name="Monk-2024.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/Monk-2024.xml" />
 		</update>
 	</info>
@@ -105,15 +105,14 @@
 			<div element="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_SLOW_FALL" />
 			<div element="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_EXTRA_ATTACK_MONK" />
 			<div element="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_STUNNING_STRIKE" />
-			<div element="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_KI_EMPOWERED_STRIKE" />
+			<div element="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_EMPOWERED_STRIKES" />
 			<div element="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_EVASION_MONK" />
 			<div element="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_HEIGHTENED_FOCUS" />
 			<div element="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_SELF_RESTORATION" />
 			<div element="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_DEFLECT_ENERGY" />
 			<div element="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_PERFECT_FOCUS" />
-			<div element="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_TONGUE_OF_THE_SUN_AND_MOON" />
 			<div element="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_SUPERIOR_DEFENSE" />
-			<div element="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_DIAMOND_SOUL" />
+			<div element="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_DISCIPLINED_SURVIVOR" />
 			<div element="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_EPIC_BOON" />
 			<div element="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_BODY_AND_MIND" />
 		</description>
