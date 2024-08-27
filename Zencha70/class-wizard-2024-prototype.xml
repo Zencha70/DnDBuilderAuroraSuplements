@@ -5,7 +5,7 @@
 		<description>The Wizard class from the 2024 Player’s Handbook (Prototype).</description>
 
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="class-wizard-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-wizard-2024-prototype.xml" />
 		</update>
 	</info>
@@ -114,7 +114,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
-			<select type="Proficiency" name="Skill Proficiency (Wizard)" supports="Skill,Wizard|ID_PROFICIENCY_SKILL_NATURE" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
+			<select type="Proficiency" name="Skill Proficiency (Wizard)" supports="ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_RELIGION" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" level="1"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_RITUAL_ADEPT" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" level="1" />
