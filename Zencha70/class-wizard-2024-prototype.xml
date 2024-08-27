@@ -5,7 +5,7 @@
 		<description>The Wizard class from the 2024 Player’s Handbook (Prototype).</description>
 
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="class-wizard-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-wizard-2024-prototype.xml" />
 		</update>
 	</info>
@@ -95,7 +95,7 @@
 			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
 			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_RITUAL_ADEPT" />
 			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" />
-			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SCHOLAR_WIZARD" />
+			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SCHOLAR" />
 			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" />
 			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" />
 			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_MEMORIZE_SPELL_WIZARD" />
