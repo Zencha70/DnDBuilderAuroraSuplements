@@ -4,50 +4,49 @@
 		<name>Wizard</name>
 		<description>The Wizard class from the 2024 Player’s Handbook (Prototype).</description>
 
-		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.0.5">
+		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
+		<update version="0.0.7">
 			<file name="class-wizard-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-wizard-2024-prototype.xml" />
 		</update>
 	</info>
 
 	<element name="Wizard" type="Class" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_WIZARD">
 		<description>
-			<p>Clad in the silver robes that denote her station, an elf closes her eyes to shut out the distractions of the battlefield and begins her quiet chant. Fingers weaving in front of her, she completes her spell and launches a tiny bead of fire toward the enemy ranks, where it erupts into a conflagration that engulfs the soldiers.</p>
-			<p class="indent">Checking and rechecking his work, a human scribes an intricate magic circle in chalk on the bare stone floor, then sprinkles powdered iron along every line and graceful curve. When the circle is complete, he drones a long incantation. A hole opens in space inside the circle, bringing a whiff of brimstone from the otherworldly plane beyond.</p>
-			<p class="indent">Crouching on the floor in a dungeon intersection, a gnome tosses a handful of small bones inscribed with mystic symbols, muttering a few words of power over them. Closing his eyes to see the visions more clearly, he nods slowly, then opens his eyes and points down the passage to his left.</p>
-			<p class="indent">Wizards are supreme magic-users, defined and united as a class by the spells they cast. Drawing on the subtle weave of magic that permeates the cosmos, wizards cast spells of explosive fire, arcing lightning, subtle deception, and brute-force mind control. Their magic conjures monsters from other planes of existence, glimpses the future, or turns slain foes into zombies. Their mightiest spells change one substance into another, call meteors down from the sky, or open portals to other worlds.</p>
-			<h4>SCHOLARS OF THE ARCANE</h4>
-			<p>Wild and enigmatic, varied in form and function, the power of magic draws students who seek to master its mysteries. Some aspire to become like the gods, shaping reality itself. Though the casting of a typical spell requires merely the utterance of a few strange words, fleeting gestures, and sometimes a pinch or clump of exotic materials, these surface components barely hint at the expertise attained after years of apprenticeship and countless hours of study.</p>
-			<p class="indent">Wizards live and die by their spells. Everything else is secondary. They learn new spells as they experiment and grow in experience. They can also learn them from other wizards, from ancient tomes or inscriptions, and from ancient creatures (such as the fey) that are steeped in magic.</p>
-			<h4>THE LURE OF KNOWLEDGE</h4>
-			<p>Wizards’ lives are seldom mundane. The closest a wizard is likely to come to an ordinary life is working as a sage or lecturer in a library or university, teaching others the secrets of the multiverse. Other wizards sell their services as diviners, serve in military forces, or pursue lives of crime or domination.</p>
-			<p class="indent">But the lure of knowledge and power calls even the most unadventurous wizards out of the safety of their libraries and laboratories and into crumbling ruins and lost cities. Most wizards believe that their counterparts in ancient civilizations knew secrets of magic that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age.</p>
-			<h4>CREATING A WIZARD </h4>
-			<p>Creating a wizard character demands a backstory dominated by at least one extraordinary event. How did your character first come into contact with magic? How did you discover you had an aptitude for it? Do you have a natural talent, or did you simply study hard and practice incessantly? Did you encounter a magical creature or an ancient tome that taught you the basics of magic?</p>
-			<p class="indent">What drew you forth from your life of study? Did your first taste of magical knowledge leave you hungry for more? Have you received word of a secret repository of knowledge not yet plundered by any other wizard? Perhaps you’re simply eager to put your newfound magical skills to the test in the face of danger.</p>
-			<h5>QUICK BUILD</h5>
-			<p>You can make a wizard quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Constitution or Dexterity. If you plan to join the School of Enchantment, make Charisma your next-best score. Second, choose the sage background. Third, choose the <i>mage hand</i>, <i>light</i>, and <i>ray of frost</i> cantrips, along with the following 1st-level spells for your spellbook: <i>burning hands,</i> <i>charm person</i>, <i>feather fall</i>, <i>mage armor</i>, <i>magic missile</i>, and <i>sleep</i>.</p>
+			<p>Wizards are defined by their exhaustive study of magic's inner workings. They cast spells of explosive fire, arcing lightning, subtle deception, and spectacular transformations. Their magic conjures monsters from other planes of existence, glimpses the future, or forms protective barriers. Their mightiest spells change one substance into another, call meteors from the sky, or open portals to other worlds.</p>
+			<p class="indent">Most Wizards share a scolarly approach to magic. They examine the theoretical underpinnings of magic, particularly the categorization of spells into schools of magic. Renowned Wizards such as Bigby, Tasha, Mordenkainen and Yolande have built on their studies to invent iconic spells now used across the multiverse.</p>
+			<p class="indent">The closest a Wizard is likely to come to an ordinary life is working as a sage or lecturer. Other Wizards sell their services as advisers, serve in military forces, or pursue lives of crime or domination.</p>
+			<p class="indent">But the lure of knowledge calls even the most unadventurous Wizards from the safety of their libraries and laboratories and into crumbling ruins and lost cities. Most Wizards believe that their counterparts in ancient civilizations knew secrets of magic that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age.</p>
+			
 			<h3>CORE WIZARD TRAITS</h3>
-			<p>As a wizard, you gain the following class features.</p>
 	    <h5 class="caption">PRIMARY ABILITIES</h5>
 	    <ul class="unstyled">
                 <li><strong>Intelligence</strong></li>
             </ul>
-			<h5>HIT POINTS</h5>
+			<h5>HIT POINT DIE</h5>
 			<ul class="unstyled">
-				<li><strong>Hit Dice:</strong> 1d6 per wizard level</li>
-				<li><strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier</li>
-				<li><strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per wizard level after 1st</li>
+				<li>1d6 per wizard level</li>
 			</ul>
-			<h5>PROFICIENCIES</h5>
+			
+			<h5>SAVING THROW PROFICIENCIES</h5>
+			<ul class="unstyled">
+				<li>Intelligence, Wisdom</li>
+			</ul>
+
+			<h5>SKILL PROFICIENCIES</h5>
 			<ul class="unstyled mb">
-				<li><strong>Armor:</strong> None</li>
-				<li><strong>Weapons:</strong> Simple weapons</li>
+				<li>Choose two from Arcana, History, Insight, Investigation, Medicine, Nature and Religion</li>
 			</ul>
+			
+			<h5>WEAPON PROFICIENCIES</h5>
 			<ul class="unstyled">
-				<li><strong>Saving Throws:</strong> Intelligence, Wisdom</li>
-				<li><strong>Skills:</strong> Choose two from Arcana, History, Insight, Investigation, Medicine, Nature and Religion</li>
+				<li>Simple weapons</li>
 			</ul>
+
+			<h5>ARMOR PROFICIENCIES</h5>
+			<ul class="unstyled">
+				<li>None</li>
+			</ul>
+
 			<h5>EQUIPMENT</h5>
 			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
 			<ul>
@@ -55,6 +54,7 @@
 				or
 				<li>(b) 55 GP</li>
 			</ul>
+			
 			<h3>BECOMING A WIZARD ...</h3>
 			<h4>As A Level 1 Character</h4>
 			<ul>
@@ -140,7 +140,6 @@
 	<element name="Spellcasting" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_SPELLCASTING</requirements>
 		<description>
-			<p>As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power.</p>
 			<h5>CANTRIPS</h5>
 			<p>You know three Wizard cantrips of your choice. <i>light</i>, <i>mage hand</i>, and <i>ray of frost</i> are recommended. Whenever you finish a long rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.</p>
 			<p class="indent">When you reach Wizard levels 4 and 10, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the Wizard Features table.</p>
@@ -163,7 +162,7 @@
 				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
 			</center>
 			<h5>SPELLCASTING FOCUS</h5>
-			<p>You can use an arcane focus as a spellcasting focus for your wizard spells.</p>
+			<p>You can use an arcane focus or your spellbook as a Spellcasting Focus for your wizard spells.</p>
 			<h5>LEARNING SPELLS OF 1ST LEVEL AND HIGHER</h5>
 			<p>Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook for free. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook. If it's a Wizard spell, you can copy it into your spellbook if it's of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.</p>
 			<h5>COPYING THE BOOK</h5>
@@ -259,8 +258,8 @@
 	<element name="Arcane Recovery" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ARCANE_RECOVERY</requirements>
 		<description>
-			<p>You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.</p>
-			<p class="indent">For example, if you’re a 4th-level wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.</p>
+			<p>You can regain some of your magical energy by studying your spellbook. When you finish a short rest, you can choose expended spellslots to recover. The spellslots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.</p>
+			<p class="indent">Once you use this feature, you can't do so again until you finish a long rest.</p>
 		</description>
 		<sheet>
 			<description>Once per day when you finish a short rest, you can choose expended spell slots up to 5th level to recover. The spell slots can have a combined level that is equal to or less than {{level:wizard:half:up}}.</description>
@@ -281,10 +280,7 @@
 	<element name="Wizard Subclass" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_ARCANE_TRADITION">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ARCANE_TRADITION</requirements>
 		<description>
-			<p>The study of wizardry is ancient, stretching back to the earliest mortal discoveries of magic. It is firmly established in fantasy gaming worlds, with various traditions dedicated to its complex study.</p>
-			<p class="indent">The most common arcane traditions in the multiverse revolve around the schools of magic. Wizards through the ages have cataloged thousands of spells, grouping them into eight categories called schools. In some places, these traditions are literally schools. In other institutions, the schools are more like academic departments, with rival faculties competing for students and funding. Even wizards who train apprentices in the solitude of their own towers use the division of magic into schools as a learning device, since the spells of each school require mastery of different techniques.</p>
-			<p class="indent">When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools, such as Evocation.</p>
-			<p class="indent">Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</p>
+			<p>You gain a Wizard subclass of your choice. The Abjurer, Diviner, Evoker and Illusionist subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Wizard levels. For the rest of your career, you gain each of your subclass's features that are of your Wizard level or lower.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -295,7 +291,7 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
-			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+			<p>You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Wizard levels 8, 12, and 16.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -303,16 +299,15 @@
 			<select type="Class Feature" name="Improvement Option (Wizard 8)" supports="Improvement Option,Wizard,8" level="8" />
 			<select type="Class Feature" name="Improvement Option (Wizard 12)" supports="Improvement Option,Wizard,12" level="12" />
 			<select type="Class Feature" name="Improvement Option (Wizard 16)" supports="Improvement Option,Wizard,16" level="16" />
-			<select type="Class Feature" name="Improvement Option (Wizard 19)" supports="Improvement Option,Wizard,19" level="19" />
 		</rules>
 	</element>
 
 	<element name="Memorize Spell" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_MEMORIZE_SPELL">
 		<description>
-			<p>Whenever you finish a short rest, you can study your spellbook and replace one of the level 1+ Wizard spells you have prepared for your Spellcasting feature with another level1+ spell from the book.</p>
+			<p>Whenever you finish a short rest, you can study your spellbook and replace one of the level 1+ Wizard spells you have prepared for your Spellcasting feature with another level 1+ spell from the book.</p>
 		</description>
 		<sheet>
-			<description>When you finish a short rest, you can replace one prepared leveled spell in your spellbook with an unprepared one.</description>
+			<description>When you finish a short rest, you can replace one prepared level 1+ spell in your spellbook with an unprepared one.</description>
 		</sheet>
 	</element>
 
@@ -334,7 +329,8 @@
 		<sheet display="false">
 		</sheet>
 		<rules>
-			<select type="Feat" name="Feat (Epic Boon)"/>
+			<select type="Class Feature" name="Epic Boon" supports="Improvement Option,Wizard,16" />
+			
 		</rules>
 	</element>
 	<element name="Signature Spells" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS">
