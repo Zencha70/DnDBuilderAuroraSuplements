@@ -1,12 +1,12 @@
-<?xml version="0.1" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Wizard</name>
-		<description>The Monk class from the 2024 Player’s Handbook (Prototype).</description>
+		<description>The Wizard class from the 2024 Player’s Handbook (Prototype).</description>
 
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="class-wizard.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-wizard.xml" />
+			<file name="class-wizard-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-wizard-2024-prototype.xml" />
 		</update>
 	</info>
 
