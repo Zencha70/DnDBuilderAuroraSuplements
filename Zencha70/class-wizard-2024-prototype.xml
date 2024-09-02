@@ -24,7 +24,7 @@
             </ul>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Core Wizard Traits</td></tr>
+					<tr><td>Core Wizard Traits</td></tr>
 				</thead>
 				<tr><td>Primary Ability</td><td>Intelligece</td></tr>
 				<tr><td>Hit Point Die</td><td>D6 per Wizard level</td></tr>
