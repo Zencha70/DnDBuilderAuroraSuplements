@@ -5,7 +5,7 @@
 		<description>The Wizard class from the 2024 Player’s Handbook (Prototype).</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.11">
+		<update version="0.0.12">
 			<file name="class-wizard-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-wizard-2024-prototype.xml" />
 		</update>
 	</info>
