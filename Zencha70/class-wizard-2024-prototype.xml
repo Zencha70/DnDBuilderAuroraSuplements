@@ -5,7 +5,7 @@
 		<description>The Wizard class from the 2024 Player’s Handbook (Prototype).</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.13">
+		<update version="0.0.14">
 			<file name="class-wizard-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-wizard-2024-prototype.xml" />
 		</update>
 	</info>
@@ -16,57 +16,19 @@
 			<p class="indent">Most Wizards share a scolarly approach to magic. They examine the theoretical underpinnings of magic, particularly the categorization of spells into schools of magic. Renowned Wizards such as Bigby, Tasha, Mordenkainen and Yolande have built on their studies to invent iconic spells now used across the multiverse.</p>
 			<p class="indent">The closest a Wizard is likely to come to an ordinary life is working as a sage or lecturer. Other Wizards sell their services as advisers, serve in military forces, or pursue lives of crime or domination.</p>
 			<p class="indent">But the lure of knowledge calls even the most unadventurous Wizards from the safety of their libraries and laboratories and into crumbling ruins and lost cities. Most Wizards believe that their counterparts in ancient civilizations knew secrets of magic that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age.</p>
-			
-			<h3>CORE WIZARD TRAITS</h3>
-	    <h5 class="caption">PRIMARY ABILITIES</h5>
-	    <ul class="unstyled">
-                <li><strong>Intelligence</strong></li>
-            </ul>
-			<table class="class-features">
+
+			<table>
 				<thead>
 					<tr><td>Core Wizard Traits</td></tr>
 				</thead>
-				<tr><td>Primary Ability</td><td class="left">Intelligece </td> </tr>
+				<tr><td>Primary Ability</td><td class="left">Intelligence </td> </tr>
 				<tr><td>Hit Point Die</td><td class="left">D6 per Wizard level</td></tr>
 				<tr><td>Saving Throw Proficiencies</td><td class="left">Intelligence and Wisdom</td></tr>
-				<tr><td>Skill Proficiencies</td><td class="left"><i>Choose 2:</i> Arcana, History, Insight, Investigation, mEdicine, Nature, Religion</td></tr>
+				<tr><td>Skill Proficiencies</td><td class="left"><i>Choose 2:</i> Arcana, History, Insight, Investigation, Medicine, Nature, Religion</td></tr>
 				<tr><td>Weapon Proficiencies</td><td class="left">Simple weapons</td></tr>
 				<tr><td>Armor Training</td><td class="left">None</td></tr>
-				<tr><td>Starting Equipment</td><td class="left"><i> Choose A or B:</i> (A) 2 Daggers, Arcane Focus (Quaterstaff), Robe, Spellbook, SCholar's Pack, and 5 GP; or (B) 55 GP</td></tr>
+				<tr><td>Starting Equipment</td><td class="left"><i> Choose A or B:</i> (A) 2 Daggers, Arcane Focus (Quaterstaff), Robe, Spellbook, Scholar's Pack, and 5 GP; or (B) 55 GP</td></tr>
 			</table>
-			<h5>HIT POINT DIE</h5>
-			<ul class="unstyled">
-				<li>1d6 per wizard level</li>
-			</ul>
-			
-			<h5>SAVING THROW PROFICIENCIES</h5>
-			<ul class="unstyled">
-				<li>Intelligence, Wisdom</li>
-			</ul>
-
-			<h5>SKILL PROFICIENCIES</h5>
-			<ul class="unstyled mb">
-				<li>Choose two from Arcana, History, Insight, Investigation, Medicine, Nature and Religion</li>
-			</ul>
-			
-			<h5>WEAPON PROFICIENCIES</h5>
-			<ul class="unstyled">
-				<li>Simple weapons</li>
-			</ul>
-
-			<h5>ARMOR PROFICIENCIES</h5>
-			<ul class="unstyled">
-				<li>None</li>
-			</ul>
-
-			<h5>EQUIPMENT</h5>
-			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
-			<ul>
-				<li>(a) 2 daggers, arcane focus (quaterstaff), robe, spellbook, scholar's pack, and 5 GP</li>
-				or
-				<li>(b) 55 GP</li>
-			</ul>
-			
 			<h3>BECOMING A WIZARD ...</h3>
 			<h4>As A Level 1 Character</h4>
 			<ul>
@@ -341,8 +303,8 @@
 		<sheet display="false">
 		</sheet>
 		<rules>
-			<select type="Class Feature" name="Epic Boon" supports="Improvement Option,Wizard,16" />
-			
+			<select type="Class Feature" name="Epic Boon" supports="Improvement Option,Wizard,19" />
+
 		</rules>
 	</element>
 	<element name="Signature Spells" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS">
