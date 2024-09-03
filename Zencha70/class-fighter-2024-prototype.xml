@@ -5,14 +5,14 @@
 				<description>The Fighter class from the 2024 Player’s Handbook (Prototype).</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="class-fighter-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-fighter-2024-prototype.xml" />
 		</update>
 	</info>
 
 	<element name="Fighter" type="Class" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FIGHTER">
 		<description>
-			<p>Fighters rule many battlefields. Questing knights, royal champions, elite soldiers and hardned mercenaries- as Fighters, they all share an unparalleled prowess with weapons and armor. And they are well acquainted with death, both meting it out and defying it.</p>
+			<p>Fighters rule many battlefields. Questing knights, royal champions, elite soldiers and hardened mercenaries- as Fighters, they all share an unparalleled prowess with weapons and armor. And they are well acquainted with death, both meting it out and defying it.</p>
 			<p class="indent">Fighters master various weapon techniques, and a well-equipped Fighter always has the right tool at hand for any combat situation. Likewise, a Fighter is adept with every form of armor. Beyond that basic degree of familiarity, each Fighter specilaizes in certain styles of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic. This combination of broad ability and extensive specialization makes Fighters superior combatants.</p>
 			
 			<table>
