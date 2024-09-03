@@ -131,7 +131,7 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_FIGHTING_STYLE</requirements>
 		<description>
 			<p>You have honed your martial prowess and gain a Fighting Style feat of your choice. Defense is recommended.</p>
-			<p class="indent">Whenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.
+			<p class="indent">Whenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.</p>
 			<h5 class="caption">ARCHERY</h5>
 			<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
 			<h5 class="caption">DEFENSE</h5>
