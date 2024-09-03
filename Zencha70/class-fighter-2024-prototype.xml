@@ -5,7 +5,7 @@
 				<description>The Fighter class from the 2024 Player’s Handbook (Prototype).</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="class-fighter-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-fighter-2024-prototype.xml" />
 		</update>
 	</info>
@@ -259,6 +259,15 @@
 			<stat name="extra attack:count" value="3" level="11" bonus="extra attack" />
 			<stat name="extra attack:count" value="4" level="20" bonus="extra attack" />
 		</rules>
+	</element>
+
+	<element name="Tactical Shift" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_TACTICALSHIFT">
+		<description>
+			<p>Whenever you activate your Second Wind with a Bonus Action, you can move up to half your speed without provoking Opportunity Attacks.</p>
+		</description>
+		<sheet>
+			<description>When you actiate Second Wind with a Bonus Action, you can move up to half your speed without provoking Opportunity Attacks.</description>
+		</sheet>
 	</element>
 
 	<element name="Indomitable" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_INDOMITABLE">
