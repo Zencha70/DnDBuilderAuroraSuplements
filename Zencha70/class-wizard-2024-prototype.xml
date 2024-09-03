@@ -5,7 +5,7 @@
 		<description>The Wizard class from the 2024 Player’s Handbook (Prototype).</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.14">
+		<update version="0.0.15">
 			<file name="class-wizard-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-wizard-2024-prototype.xml" />
 		</update>
 	</info>
@@ -298,7 +298,7 @@
 	</element>
 	<element name="Epic Boon" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_EPIC_BOON">
 		<description>
-			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify.</p>
+			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Spell Recall is recommended.</p>
 		</description>
 		<sheet display="false">
 		</sheet>
