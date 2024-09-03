@@ -5,7 +5,7 @@
 				<description>The Fighter class from the 2024 Player’s Handbook (Prototype).</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="class-fighter-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-fighter-2024-prototype.xml" />
 		</update>
 	</info>
@@ -51,7 +51,7 @@
 				<tr><td> 6th</td><td class="left">Ability Score Improvement</td><td>3</td><td>4</td></tr>
 				<tr><td> 7th</td><td class="left">Subclass Feature</td><td>3</td><td>4</td></tr>
 				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>3</td><td>4</td></tr>
-				<tr><td> 9th</td><td class="left">Indomitable (one use), Tactical Master</td><<td>3</td><td>4</td>/tr>
+				<tr><td> 9th</td><td class="left">Indomitable (one use), Tactical Master</td><td>3</td><td>4</td>/tr>
 				<tr><td>10th</td><td class="left">Subclass Feature</td><td>4</td><td>5</td></tr>
 				<tr><td>11th</td><td class="left">Two Extra Attacks</td><td>4</td><td>5</td></tr>
 				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>4</td><td>5</td></tr>
