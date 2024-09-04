@@ -167,7 +167,7 @@
 			<p class="indent">When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.</p>
 		</description>
 		<sheet action="Bonus Action" usage="{{second wind:count}} uses">
-			<description>You regain 1d10+{{level:fighter}} hp.</description>
+			<description>You regain 1d10+{{level:fighter}} hp. You regain 1 expended use of this feature when you take a Short Rest.</description>
 		</sheet>
 		<rules>
 			<stat name="second wind:count" value="2" bonus="base" />
