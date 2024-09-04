@@ -5,7 +5,7 @@
 				<description>The Fighter class from the 2024 Player’s Handbook (Prototype).</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="class-fighter-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-fighter-2024-prototype.xml" />
 		</update>
 	</info>
@@ -260,7 +260,7 @@
 		</rules>
 	</element>
 
-	<element name="Tactical Shift" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_TACTICALSHIFT">
+	<element name="Tactical Shift" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_TACTICALSHIFT">
 		<description>
 			<p>Whenever you activate your Second Wind with a Bonus Action, you can move up to half your speed without provoking Opportunity Attacks.</p>
 		</description>
@@ -272,16 +272,17 @@
 	<element name="Indomitable" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_INDOMITABLE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_INDOMITABLE</requirements>
 		<description>
-			<p>Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can’t use this feature again until you finish a long rest.</p>
+			<p>If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. You must use the new roll, and you can't use this feature again until you finish a Long Rest.</p>
 			<p class="indent">You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.</p>
 		</description>
 		<sheet usage="{{indomitable:usage}}/Long Rest">
-			<description>You can reroll a saving throw that you fail. If you do so, you must use the new roll.</description>
+			<description>You can reroll a saving throw that you fail with a +{{indomitable:bonus}} bonus. If you do so, you must use the new roll.</description>
 		</sheet>
 		<rules>
 			<stat name="indomitable:usage" value="1" level="9" />
 			<stat name="indomitable:usage" value="1" level="13" />
 			<stat name="indomitable:usage" value="1" level="17" />
+			<stat name="indomitable:bonus" value="level:fighter" />
 		</rules>
 	</element>
 
@@ -294,7 +295,7 @@
 		</sheet>
 	</element>
 
-	<element name="Studied Attacks" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_STUDIEDATTACKS">
+	<element name="Studied Attacks" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_STUDIEDATTACKS">
 		<description>
 			<p>You study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creaure before the end of your next turn.</p>
 		</description>
@@ -303,7 +304,7 @@
 		</sheet>
 	</element>
 
-		<element name="Epic Boon" type="Class Feature" source="2024 2024 Player’s Handbook (Prototype) (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_EPICBOON">
+		<element name="Epic Boon" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_EPICBOON">
 		<description>
 			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Combat Prowess is recommended.</p>
 		</description>
