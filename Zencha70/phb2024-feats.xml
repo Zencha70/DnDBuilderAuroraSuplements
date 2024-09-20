@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="phb2024-feats.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/phb2024-feats.xml" />
+		</update>
+	</info>
+
+	<element name="Grappler" type="Feat" soure="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_GRAPPLER">
+		<prerequisite>Level 4+, Dexterity 13+</prerequisite>
+		<requirements>[level:4],[dex:13]</requirements>
+		<description>
+			<p>You gain the following benefits.</p>
+			<p class="indent"><i><b>Punch and Grab.</b></i> When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn.</p>
+			<p class="indent"><i><b>Attack Advantage.</i></b> You have Advantage on attack rolls against a creature Grappled by you.</p>
+			<p class="indent"><i><b>Fast Wrestler.</i></b> Your Speed isn't halved when you mvoe a creature Grappled by you if the creature is your size or smaller.</p>
+		</decription>
+		<sheet>
+			<description>When you hit a creature with an Unarmed Strike as part of your Attack Action, you can both damage and Grapple the target. You may do both one per turn.
+			You have Advantage on attack rolls against creatures Grappled by you.
+			Your Speed isn't halved when you move a creature Grappled by you if the creature is your size or smaller.</description>
+		</sheet>	
+		<rules>
+			<select type="Ability Score Improvement" name="Grappler" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />	
+		</rules>
+	</element>
+
+	<element name="Tavern Brawler" type="Feat" soure="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_TAVERN_BRAWLER">
+		<description>
+			<p>You gain the following benefits.</p>
+			<p class="indent"><i><b>Enhanced Unarmed Strike.</b></i> When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to ld4 plus your Strength modifier instead of the normal damage of an Unarmed Strike.</p>
+			<p class="indent"><i><b>Damage Rerolls.</i></b> Whenever you roll a damage die for your Unarmed Strike, you can reroll the die if it rolls a 1, and you must use the new roll.</p>
+			<p class="indent"><i><b>Improvised Weaponry.</i></b> You have proficiency with improvised weapons.</p>
+			<p class="indent"><i><b>Push.</i></b> When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can deal damage to the target and also push it 5 feet away from you. You can use this benefit only once per turn.</p>
+		</decription>
+		<sheet>
+			<description>Your Unarmed Strikes deal 1d4 for damage.
+			Whenever you roll a 1 on your Unarmed Strike damage die, you can reroll the die and you must use the new roll.
+			You have proficiency with improvised weapons.
+			When you hit a creature with an Unarmed Strike, you can push the target 5 feet away from you. You can only use this benefit once per turn.</description>
+		</sheet>
+	</element>
+
+	<element name="Inspiring Leader" type="Feat" soure="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_INSPIRING_LEADER">
+		<prerequisite>Level4+, Wisdom or Charisma 13+</prerequisite>
+		<requirements>[cha:13]||[wis:13]</requirements>
+		<description>
+			<p>You gain the following benefits</p>
+			<p class="indent"><i><b>Ability Score Increase</i></b> Increase your Charisma or Wisdom score by 1, to a maximum of 20.</p>
+			<p class="indent"><i><b>Bolstering Performance</i></b> When you finish a Short or Long Rest, you can give an inspiring performance: a speech, song, or dance. When you do so, choose up to six allies (which can include yourself) within 30 feet of yourself who witness the performance. The chosen creatures each gain Temporary Hit Points equal to your character level plus the modifier of the ability you increased with this feat.</p>
+		</description>
+		<rules>
+			<select type="Feat Feature" id="ID_ZENCHA70_PHB2024_FEAT_INSPIRING_LEADER_CHARISMA|ID_ZENCHA70_PHB2024_FEAT_INSPIRING_LEADER_WISDOM" />
+		</rules>
+	</element>
+
+	<element name="Charisma Inspiring Leader" type="Feat Feature" source="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_INSPIRING_LEADER_CHARISMA" />
+		<sheet usage="1/Short Rest">
+			<description>When you finish a Short or Long Rest, you can give an inspiring performance:a speech, song or dance. You choose up to six allies who witnessed your performance to gain {{inspiring leader2:hp:temp}} Temporary Hit Points.</description>
+		</sheet>
+		<rules>
+			<stat name="charisma" value="1" />
+			<stat name="inspiring leader2:hp:temp" value="level" />
+			<stat name="inspiring leader2:hp:temp" value="charisma:modifier" bonus="ability" />
+		</rules>
+	</element>
+
+	<element name="Wisdom Inspiring Leader" type="Feat Feature" source="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_INSPIRING_LEADER_WISDOM" />
+		<sheet usage="1/Short Rest">
+			<description>When you finish a Short or Long Rest, you can give an inspiring performance:a speech, song or dance. You choose up to six allies who witnessed your performance to gain {{inspiring leader3:hp:temp}} Temporary Hit Points.</description>
+		</sheet>
+		<rules>
+			<stat name="wisdom" value="1" />
+			<stat name="inspiring leader3:hp:temp" value="level" />
+			<stat name="inspiring leader3:hp:temp" value="wisdom:modifier" bonus="ability" />
+		</rules>
+	</element>
+
+</elements>
