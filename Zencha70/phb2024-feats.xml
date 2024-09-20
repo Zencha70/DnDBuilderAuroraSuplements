@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="phb2024-feats.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/phb2024-feats.xml" />
 		</update>
 	</info>
@@ -56,7 +56,7 @@
 
 	<element name="Charisma Inspiring Leader" type="Feat Feature" source="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_INSPIRING_LEADER_CHARISMA">
 		<sheet usage="1/Short Rest">
-			<description>When you finish a Short or Long Rest, you can give an inspiring performance:a speech, song or dance. You choose up to six allies who witnessed your performance to gain {{inspiring leader2:hp:temp}} Temporary Hit Points.</description>
+			<description>When you finish a Short or Long Rest, you can give an inspiring performance: a speech, song or dance. You choose up to six allies who witnessed your performance to gain {{inspiring leader2:hp:temp}} Temporary Hit Points.</description>
 		</sheet>
 		<rules>
 			<stat name="charisma" value="1" />
