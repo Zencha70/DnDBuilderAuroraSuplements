@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="phb2024-feats.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/phb2024-feats.xml" />
 		</update>
 	</info>
@@ -42,7 +42,7 @@
 	</element>
 
 	<element name="Inspiring Leader" type="Feat" source="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_INSPIRING_LEADER">
-		<prerequisite>Level4+, Wisdom or Charisma 13+</prerequisite>
+		<prerequisite>Level 4+, Wisdom or Charisma 13+</prerequisite>
 		<requirements>[cha:13]||[wis:13]</requirements>
 		<description>
 			<p>You gain the following benefits</p>
@@ -50,7 +50,7 @@
 			<p class="indent"><i><b>Bolstering Performance</b></i> When you finish a Short or Long Rest, you can give an inspiring performance: a speech, song, or dance. When you do so, choose up to six allies (which can include yourself) within 30 feet of yourself who witness the performance. The chosen creatures each gain Temporary Hit Points equal to your character level plus the modifier of the ability you increased with this feat.</p>
 		</description>
 		<rules>
-			<select type="Feat Feature" id="ID_ZENCHA70_PHB2024_FEAT_INSPIRING_LEADER_CHARISMA|ID_ZENCHA70_PHB2024_FEAT_INSPIRING_LEADER_WISDOM" />
+			<select type="Feat Feature" name="Feat Ability" supports="ID_ZENCHA70_PHB2024_FEAT_INSPIRING_LEADER_CHARISMA|ID_ZENCHA70_PHB2024_FEAT_INSPIRING_LEADER_WISDOM" />
 		</rules>
 	</element>
 
