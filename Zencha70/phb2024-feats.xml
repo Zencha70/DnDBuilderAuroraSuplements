@@ -6,7 +6,7 @@
 		</update>
 	</info>
 
-	<element name="Grappler" type="Feat" soure="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_GRAPPLER">
+	<element name="Grappler" type="Feat" source="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_GRAPPLER">
 		<prerequisite>Level 4+, Dexterity 13+</prerequisite>
 		<requirements>[level:4],[dex:13]||[str:13]</requirements>
 		<description>
@@ -25,7 +25,7 @@
 		</rules>
 	</element>
 
-	<element name="Tavern Brawler" type="Feat" soure="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_TAVERN_BRAWLER">
+	<element name="Tavern Brawler" type="Feat" source="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_TAVERN_BRAWLER">
 		<description>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><i><b>Enhanced Unarmed Strike.</b></i> When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to ld4 plus your Strength modifier instead of the normal damage of an Unarmed Strike.</p>
@@ -41,7 +41,7 @@
 		</sheet>
 	</element>
 
-	<element name="Inspiring Leader" type="Feat" soure="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_INSPIRING_LEADER">
+	<element name="Inspiring Leader" type="Feat" source="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_INSPIRING_LEADER">
 		<prerequisite>Level4+, Wisdom or Charisma 13+</prerequisite>
 		<requirements>[cha:13]||[wis:13]</requirements>
 		<description>
