@@ -14,7 +14,7 @@
 			<p class="indent"><i><b>Punch and Grab.</b></i> When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn.</p>
 			<p class="indent"><i><b>Attack Advantage.</b></i> You have Advantage on attack rolls against a creature Grappled by you.</p>
 			<p class="indent"><i><b>Fast Wrestler.</b></i> Your Speed isn't halved when you mvoe a creature Grappled by you if the creature is your size or smaller.</p>
-		</decription>
+		</description>
 		<sheet>
 			<description>When you hit a creature with an Unarmed Strike as part of your Attack Action, you can both damage and Grapple the target. You may do both one per turn.
 			You have Advantage on attack rolls against creatures Grappled by you.
@@ -32,7 +32,7 @@
 			<p class="indent"><i><b>Damage Rerolls.</b></i> Whenever you roll a damage die for your Unarmed Strike, you can reroll the die if it rolls a 1, and you must use the new roll.</p>
 			<p class="indent"><i><b>Improvised Weaponry.</b></i> You have proficiency with improvised weapons.</p>
 			<p class="indent"><i><b>Push.</b></i> When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can deal damage to the target and also push it 5 feet away from you. You can use this benefit only once per turn.</p>
-		</decription>
+		</description>
 		<sheet>
 			<description>Your Unarmed Strikes deal 1d4 for damage.
 			Whenever you roll a 1 on your Unarmed Strike damage die, you can reroll the die and you must use the new roll.
