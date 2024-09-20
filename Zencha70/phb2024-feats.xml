@@ -54,7 +54,7 @@
 		</rules>
 	</element>
 
-	<element name="Charisma Inspiring Leader" type="Feat Feature" source="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_INSPIRING_LEADER_CHARISMA" />
+	<element name="Charisma Inspiring Leader" type="Feat Feature" source="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_INSPIRING_LEADER_CHARISMA">
 		<sheet usage="1/Short Rest">
 			<description>When you finish a Short or Long Rest, you can give an inspiring performance:a speech, song or dance. You choose up to six allies who witnessed your performance to gain {{inspiring leader2:hp:temp}} Temporary Hit Points.</description>
 		</sheet>
@@ -65,7 +65,7 @@
 		</rules>
 	</element>
 
-	<element name="Wisdom Inspiring Leader" type="Feat Feature" source="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_INSPIRING_LEADER_WISDOM" />
+	<element name="Wisdom Inspiring Leader" type="Feat Feature" source="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_INSPIRING_LEADER_WISDOM">
 		<sheet usage="1/Short Rest">
 			<description>When you finish a Short or Long Rest, you can give an inspiring performance:a speech, song or dance. You choose up to six allies who witnessed your performance to gain {{inspiring leader3:hp:temp}} Temporary Hit Points.</description>
 		</sheet>
