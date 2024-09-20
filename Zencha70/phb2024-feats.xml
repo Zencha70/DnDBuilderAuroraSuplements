@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="phb2024-feats.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/phb2024-feats.xml" />
 		</update>
 	</info>
 
 	<element name="Grappler" type="Feat" soure="PHB2024 prototype feats" id="ID_ZENCHA70_PHB2024_FEAT_GRAPPLER">
 		<prerequisite>Level 4+, Dexterity 13+</prerequisite>
-		<requirements>[level:4],[dex:13]</requirements>
+		<requirements>[level:4],[dex:13]||[str:13]</requirements>
 		<description>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><i><b>Punch and Grab.</b></i> When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn.</p>
