@@ -68,7 +68,7 @@
 	</element>
 
 
-	<element name="Charisma" type="Feat Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_FEAT_FEATURE_EMBER_OF_THE_FIRE_GIANT_WISDOM">
+	<element name="Charisma" type="Feat Feature" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_FEAT_FEATURE_EMBER_OF_THE_FIRE_GIANT_CHARISMA">
 		<compendium display="false" />
 		<description>
 			<p>Increase your Charisma by 1, to a maximum of 20.</p>
