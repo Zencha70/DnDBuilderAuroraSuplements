@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Unarmed Strike</name>
+		<description>The Addition of the Unarmed Strike as a Weapon.</description>
+		<update version="0.0.1">
+			<file name="unarmed-strike.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/unarmed-strike.xml" />
+		</update>
+	</info>
+	<element name="Unarmed Strike" type="Weapon" source="Common Sense" id="ID_ZENCHA70_WEAPON_UNARMED_STRIKE">
+		<supports>		<supports>ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports></supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="bludgeoning">1d{{martial arts:dice}}</set>
+			<set name="proficiency">ID_ZENCHA70_WEAPON_PROFICIENCY_UNARMED_STRIKE</set>
+		</setters>
+	</element>
+</elements>
