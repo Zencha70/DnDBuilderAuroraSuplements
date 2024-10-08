@@ -4,7 +4,7 @@
 		<name>Monk</name>
 		<description>The Monk class from the 2024 Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.2.34">
+		<update version="0.2.35">
 			<file name="Monk-2024.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/Monk-2024.xml" />
 		</update>
 	</info>
@@ -232,7 +232,7 @@
 				<p><strong>Focus save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
 			</center>
 			<h6>FLURRY OF BLOWS</h6>
-			<p>Immediately after you take the Attack action on your turn, you can spend 1 focus point to make two unarmed strikes as a bonus action.</p>
+			<p>You can spend 1 focus point to make two unarmed strikes as a bonus action.</p>
 			<h6>PATIENT DEFENSE</h6>
 			<p>You can Disengage action as a bonus action. Alternatively, you can expend 1 focus point to take both the Disengage and the Dodge actions as a bonus action.</p>
 			<h6>STEP OF THE WIND</h6>
@@ -255,11 +255,11 @@
 
 	<element name="Flurry of Blows" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_KI_FLURRY_OF_BLOWS">
 		<description>
-			<p>Immediately after you take the Attack action on your turn, you can spend 1 focus point to make two unarmed strikes as a bonus action.</p>
+			<p>You can spend 1 focus point to make two unarmed strikes as a bonus action.</p>
 		</description>
 		<sheet action="Bonus Action" usage="Focus">
-			<description>Immediately after you take the Attack action on your turn, you can spend 1 focus point to make two unarmed strikes.</description>
-			<description level="10">Immediately after you take the Attack action on your turn, you can spend 1 focus point to make three unarmed strikes.</description>
+			<description>You can spend 1 focus point to make two unarmed strikes.</description>
+			<description level="10">You can spend 1 focus point to make three unarmed strikes.</description>
 		</sheet>
 	</element>
 
