@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="giant-fire-feat.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/giant-fire-feat.xml" />
 		</update>
 	</info>
@@ -14,10 +14,10 @@
 			<p>You've manifested the fiery combat emblematic of fire giants, granting you the following benefits:</p>
 			<p class="indent"><i><b>Ability Score Increase.</b></i> Increase your Strength, Constitution, or Wisdom by 1, to a maximum of 20.</p>
 			<p class="indent"><i><b>Born of Flame.</b></i> You have resistance to fire damage.</p>
-			<p class="indent"><i><b>Searing Ignition.</b></i> When you take the Attack action or make an attack as part of a bonus action on your turn, you can replace a single attack from either feature with a magical burst of flame. Each creature of your choice in a 15-foot-radius sphere centered on you must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat). On a failed save, a creature takes fire damage equal to 1d8 + your proficiency bonus, and it has the blinded condition until the start of your next turn. On a successful save, the creature takes half as much damage only. You can use your Searing Ignition a number of times equal to your proficiency bonus (but no more than once per turn), and you regain all expended uses when you finish a long rest.</p>
+			<p class="indent"><i><b>Searing Ignition.</b></i> When you take the Attack action or make an attack as part of a bonus action on your turn, you can replace a single attack from either feature with a magical burst of flame. Each creature of your choice in a 15-foot-radius sphere centered on you must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat). On a failed save, a creature takes fire damage equal to 1d8 + your proficiency bonus, and it has the blinded condition until the start of your next turn. On a successful save, the creature takes half as much damage and isn't blinded. You can use your Searing Ignition a number of times equal to your proficiency bonus (but no more than once per turn), and you regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet action="Action or Bonus Action Attack" usage="{{proficiency}}/Long Rest" alt="Searing Ignition">
-			<description>Once on your turn, each creature of your choice in a 15-foot-radius sphere centered on you must make a Dexterity saving throw DC{{searing ignition:dc}}. On a failed save, a creature takes fire damage equal to 1d8 + {{proficiency}}, and it has the blinded condition until the start of your next turn. On a successful save, the creature takes half as much damage only.</description>
+			<description>Once on your turn, each creature of your choice in a 15-foot-radius sphere centered on you must make a Dexterity saving throw DC{{searing ignition:dc}}. On a failed save, a creature takes fire damage equal to 1d8 + {{proficiency}}, and it has the blinded condition until the start of your next turn. On a successful save, the creature takes half as much damage and isn't blinded.</description>
 		</sheet>
 		<rules>
 			<select type="Feat Feature" name="Ability Score Increase (Ember of the Fire Giant)" supports="ID_HOMEBREW_ZENCHA70_HOMEBREW_FEAT_FEATURE_EMBER_OF_THE_FIRE_GIANT_STRENGTH|ID_HOMEBREW_ZENCHA70_HOMEBREW_FEAT_FEATURE_EMBER_OF_THE_FIRE_GIANT_CONSTITUTION|ID_HOMEBREW_ZENCHA70_HOMEBREW_FEAT_FEATURE_EMBER_OF_THE_FIRE_GIANT_WISDOM|ID_HOMEBREW_ZENCHA70_HOMEBREW_FEAT_FEATURE_EMBER_OF_THE_FIRE_GIANT_CHARISMA" />
