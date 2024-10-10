@@ -115,6 +115,7 @@
 	<element name="Spellcasting" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_SPELLCASTING</requirements>
 		<description>
+			<p>As a student of arcane magic, you have learned to cast spells. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Wizard spells, which appear in the Wizard spell list later in the class's description.</p>
 			<h5>CANTRIPS</h5>
 			<p>You know three Wizard cantrips of your choice. <i>light</i>, <i>mage hand</i>, and <i>ray of frost</i> are recommended. Whenever you finish a long rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.</p>
 			<p class="indent">When you reach Wizard levels 4 and 10, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the Wizard Features table.</p>
