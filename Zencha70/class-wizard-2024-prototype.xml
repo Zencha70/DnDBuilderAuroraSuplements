@@ -5,7 +5,7 @@
 		<description>The Wizard class from the 2024 Player’s Handbook (Prototype).</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.15">
+		<update version="0.0.16">
 			<file name="class-wizard-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-wizard-2024-prototype.xml" />
 		</update>
 	</info>
@@ -74,6 +74,7 @@
 			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" />
 			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_MEMORIZE_SPELL" />
 			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SPELL_MASTERY" />
+			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_EPIC_BOON" />
 			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" />
 		</description>
 		<sheet display="false">
