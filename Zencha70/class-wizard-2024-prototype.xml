@@ -5,7 +5,7 @@
 		<description>The Wizard class from the 2024 Player’s Handbook (Prototype).</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
-		<update version="0.0.16">
+		<update version="0.0.17">
 			<file name="class-wizard-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-wizard-2024-prototype.xml" />
 		</update>
 	</info>
@@ -33,12 +33,12 @@
 			<h4>As A Level 1 Character</h4>
 			<ul>
 				<li>Gain all the traits in the Core Wizard Traits table.</li>
-				<li>Gain the Wizard'slevel 1 features which are listed in the Wizard Features table.</li>
+				<li>Gain the Wizard's level 1 features which are listed in the Wizard Features table.</li>
 			</ul>
 			<h4>As A Multiclass Character</h4>
 			<ul>
 				<li>Gain the Hit Point Die trait from the Core Wizard Traits table.</li>
-				<li>Gain the Wizard's level 1 features which are listed in the Wizard Features table</li>
+				<li>Gain the Wizard's level 1 features, which are listed in the Wizard Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li>
 			</ul>
 			<h5 class="caption">WIZARD FEATURES</h5>
 			<table class="class-features">
@@ -115,6 +115,7 @@
 	<element name="Spellcasting" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_SPELLCASTING</requirements>
 		<description>
+			<p>As a student of arcane magic, you have learned to cast spells. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Wizard spells, which appear in the Wizard spell list later in the class's description.</p>
 			<h5>CANTRIPS</h5>
 			<p>You know three Wizard cantrips of your choice. <i>light</i>, <i>mage hand</i>, and <i>ray of frost</i> are recommended. Whenever you finish a long rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.</p>
 			<p class="indent">When you reach Wizard levels 4 and 10, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the Wizard Features table.</p>
