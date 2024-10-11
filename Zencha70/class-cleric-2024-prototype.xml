@@ -4,7 +4,7 @@
 		<name>Cleric</name>
 		<description>The Cleric class from the 2024 Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.0.13">
+		<update version="0.0.14">
 			<file name="class-cleric-2024-prototype" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-cleric-2024-prototype.xml" />
 		</update>
 	</info>
@@ -221,7 +221,7 @@
 
 		</rules>
 	</element>
-<!-- 
+
 	<element name="Thaumaturge" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEORDER_THAUMATURGE">
 		<description>
 			<p class="indent"> <i>Thaumaturge</i>. You know one extra cantrip from the Cleric spell list. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1).</p>
@@ -297,7 +297,7 @@
 		</rules>
 	</element>
 
-	<element name="Sear Undead" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURNUNDEAD_SEARUNDEAD">
+	<!-- <element name="Sear Undead" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURNUNDEAD_SEARUNDEAD">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DESTROY_UNDEAD</requirements>
 		<description>
 			<p>Whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of ld8) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.</p>
@@ -429,7 +429,7 @@
 	</element> -->
 
 	<!--Feature Replacement Grants-->
-	<!-- <element name="Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_SPELLCASTING" />
+	<element name="Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_SPELLCASTING" />
 	<element name="Divine Domain Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_DOMAIN" />
 	<element name="Channel Divinity Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_CHANNEL_DIVINITY" />
 	<element name="Channel Divinity: Turn Undead Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_CHANNELDIVINITY_TURN_UNDEAD" />
@@ -437,5 +437,5 @@
 	<element name="Destroy Undead Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DESTROY_UNDEAD" />
 	<element name="Divine Intervention Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_INTERVENTION" />
 
-	<element name="Divine Strike or Potent Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING" /> -->
+	<element name="Divine Strike or Potent Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING" />
 </elements>
