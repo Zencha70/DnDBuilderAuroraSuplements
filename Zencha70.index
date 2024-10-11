@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Your Content</name>
-		<update version="1.1.16">
+		<update version="1.1.17">
 			<file name="Zencha70.index" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70.index" />
 		</update>
 	</info>
@@ -22,7 +22,7 @@
 		<file name="class-wizard-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-wizard-2024-prototype.xml" />
 		<file name="class-fighter-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-fighter-2024-prototype.xml" />
 		<file name="phb2024-feats.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/refs/heads/main/Zencha70/phb2024-feats.xml" />
-		<file name="class-cleric-2024-prototype" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/refs/heads/main/Zencha70/class-cleric-2024-prototype.xml" />
+		<file name="class-cleric-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/refs/heads/main/Zencha70/class-cleric-2024-prototype.xml" />
 		
 	</files>
 </index>
