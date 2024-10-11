@@ -4,7 +4,7 @@
 		<name>Cleric</name>
 		<description>The Cleric class from the 2024 Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.0.20">
+		<update version="0.0.21">
 			<file name="class-cleric-2024-prototype" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-cleric-2024-prototype.xml" />
 		</update>
 	</info>
@@ -290,7 +290,7 @@
 		</description>
 		<sheet alt="Turn Undead" action="Action" usage="Channel Divinity">
 			<description>Each Undead of your choice within 30 feet of you mustmake a Wisdom saving throw. If the creature fails its save, it has the Frightened and Incapacitated conditions for 1 minute. This effect ends early on a creature if it takes any damage, if you have the Incapacitated condition or if you die.
-				For that duration, it tries to move as far from you as it can on its turns.</description>
+				 For that duration, it tries to move as far from you as it can on its turns.</description>
 		</sheet>
 		<rules>
 			<grant type="Class Feature" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURNUNDEAD_SEARUNDEAD" level="5" />
@@ -317,7 +317,7 @@
 			<p class="indent">You roll an additional d8 when you reach Cleric levels 7 (2d8), 13 (3d8), and 18 (4d8).</p>
 		</description>
 		<sheet alt="Divine Spark" action="Action" usage="Channel Divinity">
-			<description>Choose a creature within 30 feet of yourself. You either restore Hit Points to the creature equal to {{divinespark:dice}}d8+{{wisdom:modifier}} or force the creature to make a Constitution saving throw, taking {{divinespark:dice}}d8+{{divinespark:modifier}} Necrotic or Radiant damage (your choice) on a failed save or half on a successful one.</description>
+			<description>Choose a creature within 30 feet of yourself. You either restore Hit Points to the creature equal to {{divinespark:dice}}d8+{{wisdom:modifier}} or force the creature to make a Constitution saving throw, taking {{divinespark:dice}}d8+{{wisdom:modifier}} Necrotic or Radiant damage (your choice) on a failed save or half on a successful one.</description>
 		</sheet>
 		<rules>
 			<stat name= "divinespark:dice" value="1" level="2" />
@@ -383,8 +383,8 @@
 			<description level="14">You can add {{wisdom:modifier}} to the damage you deal with any Cleric cantrip. Additionally, when you cast a Cleric cantrip and deal damage to a creature with it, you can grant yourself or another creature within 60 feet of you a number of Temporary Hit Points equal to {{doublewisdom:bonus}}. </description>
 		</sheet>
 		<rules>
-			<stat name="doublewisdom:bonus" value="wisdom:modifer" bonus="base"/>
-			<stat name="doublewisdom:bonus" value="wisdom:modifer" bonus="base"/>
+			<stat name="doublewisdom:bonus" value="wisdom:modifer" />
+			<stat name="doublewisdom:bonus" value="wisdom:modifer" />
 		</rules>
 	</element>
 
