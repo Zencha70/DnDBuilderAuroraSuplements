@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="cleric-trickery-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-cleric-2024-prototype.xml" />
 		</update>
 	</info>
@@ -25,8 +25,7 @@
 			</table>
 			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER" />
 			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY" />
-			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_CLOAK_OF_SHADOWS" />
-			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_DIVINE_STRIKE" />
+			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_TRICKSTER'S_TRANSPOSITION" />
 			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY" />
 		</description>
 		<sheet display="false"/>
