@@ -4,7 +4,7 @@
 		<name>Cleric</name>
 		<description>The Cleric class from the 2024 Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.0.18">
+		<update version="0.0.19">
 			<file name="class-cleric-2024-prototype" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-cleric-2024-prototype.xml" />
 		</update>
 	</info>
@@ -403,10 +403,10 @@
 	<element name="Improved Blessed Strikes" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_IMPROVEDBLESSEDSTRIKES" >
 		<description>
 			<p>The option you chose for Blessed Strikes grows more powerful. </p>
-			<u>
+			<!-- <u> -->
 				<li><i>Divine Strike</i> The extra damage of your Divine Strike increases to 2d8.</li>
 				<li><i>Potent Spellcasting</i> When you cast a Cleric cantrip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit Points equal to twice your Wisdom modifier.</li>
-			</u>
+			<!-- </u> -->
 		</description>
 		<sheet display="false" />
 	</element>
