@@ -4,7 +4,7 @@
 		<name>Cleric</name>
 		<description>The Cleric class from the 2024 Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="class-cleric-2024-prototype" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-cleric-2024-prototype.xml" />
 		</update>
 	</info>
@@ -69,10 +69,11 @@
 			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CLERICSUBCLASS" />
 			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC" />
 			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURNUNDEAD_SEARUNDEAD" />
-			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_BLESSED_STRIKES" />
+			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_BLESSEDSTRIKES" />
 			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_BLESSEDSTRIKES_POTENTSPELLCASTING" />
 			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_BLESSEDSTRIKES_DIVINESTRIKE" />
 			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION" />
+			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_IMPROVEDBLESSEDSTRIKES" />
 			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_EPIC_BOON" />
 			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_GREATERDIVINEINTERVENTION" />
 		</description>
@@ -97,8 +98,9 @@
 			<grant type="Class Feature" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY" level="2" />
 			<grant type="Class Feature" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CLERICSUBCLASS" level="3" />
 			<grant type="Class Feature" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC" level="4" />
-			<grant type="Class Feature" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_BLESSED_STRIKES" level="7" />
+			<grant type="Class Feature" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_BLESSEDSTRIKES" level="7" />
 			<grant type="Class Feature" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION" level="10" />
+			<grant type="Class Feature" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_IMPROVEDBLESSEDSTRIKES" level="14" />
 			<grant type="Class Feature" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_EPIC_BOON" level="19" />
 			<grant type="Class Feature" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_GREATERDIVINEINTERVENTION" level="20" />
 		</rules>
@@ -383,7 +385,7 @@
 		</sheet>
 		<rules>
 			<stat name="doublewisdom:bonus" value="wisdom:modifer"/>
-			<stat name="doublewisdom:bonus" value="wisdom:modifer"/>
+			<stat name="doublewisdom:bonus" value="wisdom:modifer" bonus="base"/>
 		</rules>
 	</element>
 
@@ -396,6 +398,17 @@
 			<description>As a Magic action, choose any Cleric spell of level 5 or lower that doesn 't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components.</description>
 			<description level="20">As a Magic action, choose any Cleric spell of level 5 or lower that doesn 't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components. 
 			You can also choose the <i>Wish</i> spell. If you do so, you can't use Divine Intervention again until you finish 2d4 Long Rests.</description>
+		</sheet>
+	</element>
+
+	<element name="Improved Blessed Strikes" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_IMPROVEDBLESSEDSTRIKES" >
+		<description>
+			<p>The option you chose for Blessed Strikes grows more powerful. </p>
+			<u>
+				<li><i>Divine Strike</i> The extra damage of your Divine Strike increases to 2d8.</li>
+				<li><i>Potent Spellcasting</i> When you cast a Cleric cantrip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit Points equal to twice your Wisdom modifier.</li>
+		</description>
+		<sheet display="false">
 		</sheet>
 	</element>
 
