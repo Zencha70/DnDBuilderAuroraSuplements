@@ -218,7 +218,7 @@
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
-
+<!-- 
 		</rules>
 	</element>
 
@@ -438,4 +438,4 @@
 	<element name="Divine Intervention Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_INTERVENTION" />
 
 	<element name="Divine Strike or Potent Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING" />
-</elements>
+</elements> -->
