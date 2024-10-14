@@ -249,7 +249,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="arcana:proficiency" value="thaumaturge:bonus" bonus="thaumaturge" />
+			<stat name="arcana:misc" value="thaumaturge:bonus" bonus="thaumaturge" />
 		</rules>
 	</element>
 
