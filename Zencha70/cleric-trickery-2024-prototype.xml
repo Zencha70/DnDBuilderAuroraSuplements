@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="cleric-trickery-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-cleric-2024-prototype.xml" />
 		</update>
 	</info>
@@ -51,8 +51,8 @@
 		<description>
 			<p>As a Magic action, you can choose yourself or a willing creature within 30 feet of yourself to have Advantage on Dexterity (Stealth) checks. This blessing lasts until you finish a Long Rest or you use this feature again.</p>
 		</description>
-		<sheet action="Action">
-			<description>As a Magic action, you give yourself or a willing creature within 30 feet of yourself Advantage on Dexterity (Stealth) checks. This blessing lasts until you finish a Long Rest or you use this feature again.</description>
+		<sheet action="Magic Action">
+			<description>You give yourself or a willing creature within 30 feet of yourself Advantage on Dexterity (Stealth) checks. This blessing lasts until you finish a Long Rest or you use this feature again.</description>
 		</sheet>
 	</element>
 
