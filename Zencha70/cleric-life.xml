@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="cleric-life.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/cleric-life.xml" />
 		</update>
 	</info>
@@ -55,7 +55,7 @@
 		<sheet>
 			<description>When you use a spell of 1st level or higher to restore hp to a creature, the creature regains additional hp equal to 2 + the spell’s level.</description>
 		</sheet>
-
+	</element>
 
 	<element name="Channel Divinity: Preserve Life" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_CD_PRESERVE_LIFE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_CD_PRESERVE_LIFE</requirements>
