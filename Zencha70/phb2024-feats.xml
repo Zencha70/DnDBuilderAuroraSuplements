@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="phb2024-feats.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/phb2024-feats.xml" />
 		</update>
 	</info>
@@ -16,7 +16,7 @@
 			<p class="indent"><i><b>Fast Wrestler.</b></i> Your Speed isn't halved when you mvoe a creature Grappled by you if the creature is your size or smaller.</p>
 		</description>
 		<sheet>
-			<description>When you hit a creature with an Unarmed Strike as part of your Attack Action, you can both damage and Grapple the target. You may do both once per turn.
+			<description>When you hit a creature with an Unarmed Strike as part of your Attack Action, you can both damage and attempt to Grapple the target. You may do both once per turn.
 			You have Advantage on attack rolls against creatures Grappled by you.
 			Your Speed isn't halved when you move a creature Grappled by you if the creature is your size or smaller.</description>
 		</sheet>	
