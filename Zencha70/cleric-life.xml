@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="cleric-life.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/cleric-life.xml" />
 		</update>
 	</info>
@@ -24,9 +24,9 @@
 				<tr><td>9th</td><td><em>Greater Restoration, Mass Cure Wounds</em></td></tr>
 			</table>
 			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_CD_PRESERVE_LIFE" />
-			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DISCIPLE_OF_LIFE" />
-			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_BLESSEDHEALER" />
-			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_SUPREMEHEALING" />
+			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_DISCIPLE_OF_LIFE" />
+			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_BLESSED_HEALER" />
+			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_SUPREME_HEALING" />
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -41,13 +41,13 @@
 			<grant type="Spell" id="ID_PHB_SPELL_GREATER_RESTORATION" level="9" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_MASS_CURE_WOUNDS" level="9" spellcasting="Cleric" prepared="true" />
 			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_CD_PRESERVE_LIFE" level="3"/>
-			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DISCIPLEOFLIFE" level="3"/>
-			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_BLESSEDHEALER" level="6"/>
-			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_SUPREMEHEALING" level="17"/>
+			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_DISCIPLE_OF_LIFE" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_BLESSED_HEALER" level="6"/>
+			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_SUPREME_HEALING" level="17"/>
 		</rules>
 	</element>
 
-	<element name="Disciple of Life" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DISCIPLE_OF_LIFE">
+	<element name="Disciple of Life" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_DISCIPLE_OF_LIFE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_DISCIPLE_OF_LIFE</requirements>
 		<description>
 			<p>When you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell’s level.</p>
@@ -75,7 +75,7 @@
 	</element>
 	
 
-	<element name="Blessed Healer" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_BLESSED_HEALER">
+	<element name="Blessed Healer" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_BLESSED_HEALER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_BLESSED_HEALER</requirements>
 		<description>
 			<p>The healing spells you cast on others heal you as well. Immediately after you cast a spell with a spell slot that restores Hit Points to one or more crea- tures other than yourself, you regain Hit Points equal to 2 plus the spell slot's level.</p>
