@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="giant-fire-feat.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/giant-fire-feat.xml" />
 		</update>
 	</info>
 
 	<element name="Ember of the Fire Giant" type="Feat" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_HOMEBREW_FEAT_EMBER_OF_THE_FIRE_GIANT">
-		<requirements>[level:4],ID_WOTC_GOTG_FEAT_FEATURE_STRIKE_OF_THE_GIANTS_FIRE_STRIKE||ID_WOTC_GOTG_GRANTS_FEAT_UNLOCKER</requirements>
-		<prerequisite>4th level, Strike of the Giants (Fire Strike) feat</prerequisite>
 		<description>
 			<p><em>Prerequisite: 4th level, Strike of the Giants (Fire Strike) feat</em></p>
 			<p>You've manifested the fiery combat emblematic of fire giants, granting you the following benefits:</p>
