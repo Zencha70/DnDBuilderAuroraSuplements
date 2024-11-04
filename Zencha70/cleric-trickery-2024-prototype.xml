@@ -69,6 +69,7 @@
 			• Cast Spells. You can cast spells as though you were in the illusion's space, but you must use your own senses. &#13;
 			• Distract. When both you and your illusion are within 5 feet of a creature that can see the illusion, you have Advantage on attack rolls against that creature, &#13;
 			• Move. As a Bonus Action, you can move the illusion up to 30 feet to an unoccupied space you can see that is within 120 feet of yourself.</description>
+		</sheet>
 	</element>
 
 	<element name="Trickster's Transposition" type="Archetype Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_TRICKSTER'S_TRANSPOSITION">
