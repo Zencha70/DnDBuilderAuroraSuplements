@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Spells from War of the Burning Sky</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="wotbs-spells.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/wotbs-spells.xml" />
 		</update>
 	</info>
@@ -105,7 +105,7 @@
 	</element>
 
 
-	<element name="Stand the Heat" type="Spell" source="War of the Burning Sky" Id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_STAND_THE_HEAT">
+	<element name="Stand the Heat" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_STAND_THE_HEAT">
 		<supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard</supports>
 		<description>
 			<p>You touch a willing creature, and the creature and all equipment it carries suffer no harm from being in extreme heat. It can exist comfortably in temperatures as high as 500 degrees Fahrenheit. This protection is sufficient to endure the oven-like heat of a forest fire, though neither the creature nor its equipment is protected against fire damage.</p>
