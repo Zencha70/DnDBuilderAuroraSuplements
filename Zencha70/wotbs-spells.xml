@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Spells from War of the Burning Sky</name>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="wotbs-spells.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/wotbs-spells.xml" />
 		</update>
 	</info>
@@ -19,12 +19,12 @@
 			<set name="range">Self</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
-			<set name="duration">concenntration, up to 1 minute</set>
+			<set name="duration">concentration, up to 1 minute</set>
 			<set name="isConcentration">true</set>
 		</setters>
 	</element>
 
-	<element name="Duelist’s Etiquette" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_CANCEL">
+	<element name="Duelist’s Etiquette" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_DUELISTS_ETTIQUETTE">
 		<supports>Cleric, Sorcerer, Wizard</supports>
 		<description>
 			<p>You touch the ground, and a 30-foot radius of the spell’s area is traced with a faintly glowing line of energy. The spell creates a subtle defensive barrier against magical attacks, causing all damage from spells and summoned creatures that originate in the area of effect to become nonlethal. A creature brought to 0 hit points from nonlethal spell damage is unconscious and stable.</p>
