@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Spells from War of the Burning Sky</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="wotbs-spells.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/wotbs-spells.xml" />
 		</update>
 	</info>
@@ -24,7 +24,7 @@
 		</setters>
 	</element>
 
-	<element name="Duelist’s Etiquette" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_KINETIC_JAUNT">
+	<element name="Duelist’s Etiquette" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_CANCEL">
 		<supports>Cleric, Sorcerer, Wizard</supports>
 		<description>
 			<p>You touch the ground, and a 30-foot radius of the spell’s area is traced with a faintly glowing line of energy. The spell creates a subtle defensive barrier against magical attacks, causing all damage from spells and summoned creatures that originate in the area of effect to become nonlethal. A creature brought to 0 hit points from nonlethal spell damage is unconscious and stable.</p>
@@ -44,7 +44,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Gabal’s Superior Missile" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_SILVERY_BARBS">
+	<element name="Gabal’s Superior Missile" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_GABALS_SUPERIOR_MISSILE">
 		<supports>Sorcerer, Wizard</supports>
 		<description>
 			<p>The archmage Gabal proudly states that this spell is superior to the old standby magic missile in urban settings. Though its range is shorter, it can be cast even without line of sight to its targets</p>
@@ -65,7 +65,7 @@
 			<set name="duration">Instantaneous</set>
 		</setters>
 	</element>
-	<element name="Gabal’s Viral Flame" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_VORTEX_WARP">
+	<element name="Gabal’s Viral Flame" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_GABALS_VIRAL_FLAME">
 		<supports>Sorcerer, Wizard</supports>
 		<description>
 			<p>A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of hungry flames in a 20-foot-radius. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.</p>
@@ -84,7 +84,7 @@
 			<set name="duration">Instantaneous</set>
 		</setters>
 	</element>
-	<element name="Like Lightning" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_WITHER_AND_BLOOM">
+	<element name="Like Lightning" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_LIKE_LIGHTNING">
 		<supports>Sorcerer, Wizard</supports>
 		<description>
 			<p>Choose a point you can see within range. You transform your body into a 5-foot-wide stroke of lightning from your current position to that point and transform back into your original form at the destination. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.</p>
@@ -105,7 +105,7 @@
 	</element>
 
 
-	<element name="Stand the Heat" type="Spell" source="War of the Burning Sky" Id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_KINETIC_JAUNT">
+	<element name="Stand the Heat" type="Spell" source="War of the Burning Sky" Id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_STAND_THE_HEAT">
 		<supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard</supports>
 		<description>
 			<p>You touch a willing creature, and the creature and all equipment it carries suffer no harm from being in extreme heat. It can exist comfortably in temperatures as high as 500 degrees Fahrenheit. This protection is sufficient to endure the oven-like heat of a forest fire, though neither the creature nor its equipment is protected against fire damage.</p>
@@ -127,7 +127,7 @@
 		</setters>
 	</element>
 
-		<element name="Storm Shield" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_KINETIC_JAUNT">
+		<element name="Storm Shield" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_STORM_SHIELD">
 		<supports>Druid, Sorcerer, Wizard</supports>
 		<description>
 			<p>Thin crackles of lightning wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell early by using an action to dismiss it.</p>
@@ -146,7 +146,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-		<element name="Telekinetic Thrust" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_KINETIC_JAUNT">
+		<element name="Telekinetic Thrust" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_TELEKINETIC_THRUST">
 		<supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You gain the ability to shove a creature or object by thought. When you cast the spell, you can exert your will on one creature or object that you can see within range causing the appropriate affect below. A creature or object you successfully move travels 30 feet directly away from you. If it hits a solid object such as a wall, it takes 1d6 bludgeoning damage for every 10 feet of movement or portion thereof. If it would hit another creature or object the damage is split between the shoved creature or object and the hit creature or object. A creature in the path of the shoved creature or object must succeed on a Dexterity saving throw, avoiding the shoved creature or object on a success or being hit by the missile and knocked prone.</p>
