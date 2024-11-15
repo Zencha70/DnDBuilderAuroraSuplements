@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Spells from War of the Burning Sky</name>
+		<update version="0.0.1">
+			<file name="wotbs-spells.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/wotbs-spells.xml" />
+		</update>
+	</info>
+	<element name="Cancel" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_CANCEL">
+		<supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>You form a sphere of antimagic in your hand. As a bonus action, you can throw the sphere at a creature within 60 feet of you that you think is concentrating on a spell, or you can use your reaction to throw it at a creature within 60 feet of you that you see casting a spell. Any spell of 2nd level or lower that the creature is casting or on which it is concentrating ends. If the spell is of 3rd level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell’s level. On a success, the creature’s spell fails and has no effect.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 3rd level or higher, the spells that the creature is casting or on which it is concentrating automatically end if the spell’s level is less than or equal to the level of the spell slot you used.</p>
+		</description>
+		<setters>
+			<set name="level">2</set>
+			<set name="school">Abjuration</set>
+			<set name="time">1 action</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="duration">concenntration, up to 1 minute</set>
+			<set name="isConcentration">true</set>
+		</setters>
+	</element>
+
+	<element name="Duelist’s Etiquette" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_KINETIC_JAUNT">
+		<supports>Cleric, Sorcerer, Wizard</supports>
+		<description>
+			<p>You touch the ground, and a 30-foot radius of the spell’s area is traced with a faintly glowing line of energy. The spell creates a subtle defensive barrier against magical attacks, causing all damage from spells and summoned creatures that originate in the area of effect to become nonlethal. A creature brought to 0 hit points from nonlethal spell damage is unconscious and stable.</p>
+			<p class="indent">Whenever a creature enters the warded area or is present when the spell is cast, it must consciously choose to accept this restriction, or else the spell ends. If at any time a creature inside the area no longer wishes to abide by the wards, they can spend an action to end the spell.</p>
+			<p class="indent">This spell is primarily used to ensure that spell duels are not fatal, without forcing mages to hold back their strongest powers.</p>
+		</description>
+		<setters>
+			<set name="level">2</set>
+			<set name="school">Abjuration</set>
+			<set name="time">1 minutee</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent"></set>
+			<set name="duration">1 hour</set>
+			<set name="isRitual">true</set>
+		</setters>
+	</element>
+	<element name="Gabal’s Superior Missile" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_SILVERY_BARBS">
+		<supports>Sorcerer, Wizard</supports>
+		<description>
+			<p>The archmage Gabal proudly states that this spell is superior to the old standby magic missile in urban settings. Though its range is shorter, it can be cast even without line of sight to its targets</p>
+			<p class="indent">You create three glowing darts of magical force. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several. This spell has two modes.</p>
+			<p class="indent">The first mode has a casting time of one action. Each dart hits a creature of your choice that you can see within range.</p>
+			<p class="indent">In the second mode you take the Ready action to cast the spell as normal but then concentrate on the spell and release it using your reaction immediately before the start of your next turn. You become aware of every visible creature within range of the spell but are not aware of their exact location. You can target creatures that have total cover or total concealment with respect to you, as long as the darts can travel around any such concealment to their targets along a 60-foot path.</p>
+			<p class="indent">For example, you could target a creature inside a room even if there was a wall between you, as long as a door or window was open. Likewise, you could target a creature hiding behind a fog cloud, as long as there was a clear route around the fog. However, you could not target a creature totally concealed within the fog cloud.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.</p>
+		</description>
+		<setters>
+
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">special</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="duration">Instantaneous</set>
+		</setters>
+	</element>
+	<element name="Gabal’s Viral Flame" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_VORTEX_WARP">
+		<supports>Sorcerer, Wizard</supports>
+		<description>
+			<p>A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of hungry flames in a 20-foot-radius. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.</p>
+			<p class="indent">The flames consume magical protections. Any abjuration spell of 3rd level or lower in the area ends as the spell is consumed. For each abjuration spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell’s level. On a successful check, the spell ends as it is consumed. An abjuration spell that affects multiple targets in the area can only be consumed once. Each consumed spell adds 1d6 fire damage to the flames.</p>
+			<p class="indent">f someone attempts to interrupt the spell with counterspell, the flames attempt to consume it as well. Make a spellcasting ability check contested by the other spellcaster’s spellcasting ability. If you win the contest, the counterspell is consumed without interrupting this spell.</p>
+			<p class="indent">Each creature in the area of the flames must make a Dexterity saving throw. A target takes 4d6 fire damage plus 1d6 fire damage for each consumed spell on a failed save, or half as much damage on a successful one.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 7th level or higher, the base damage increases by 1d6 for each slot level above 6th.</p>
+		</description>
+		<setters>
+			<set name="level">6</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="range">120 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="duration">Instantaneous</set>
+		</setters>
+	</element>
+	<element name="Like Lightning" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_WITHER_AND_BLOOM">
+		<supports>Sorcerer, Wizard</supports>
+		<description>
+			<p>Choose a point you can see within range. You transform your body into a 5-foot-wide stroke of lightning from your current position to that point and transform back into your original form at the destination. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.</p>
+			<p class="indent">The lightning ignites flammable objects in its path that aren’t being worn or carried.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d6 for each slot level above 5th.</p>
+		</description>
+		<setters>
+			<set name="level">5</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="range">100 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a bit of fur and a rod of amber, crystal, or glass</set>
+			<set name="duration">Instantaneous</set>
+		</setters>
+	</element>
+
+
+	<element name="Stand the Heat" type="Spell" source="War of the Burning Sky" Id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_KINETIC_JAUNT">
+		<supports>Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard</supports>
+		<description>
+			<p>You touch a willing creature, and the creature and all equipment it carries suffer no harm from being in extreme heat. It can exist comfortably in temperatures as high as 500 degrees Fahrenheit. This protection is sufficient to endure the oven-like heat of a forest fire, though neither the creature nor its equipment is protected against fire damage.</p>
+			<p class="indent">If the affected creature catches fire, it can put the flames out with a bonus action.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be touching you or another of the affected creatures.</p>
+
+		</description>
+		<setters>
+			<set name="level">1</set>
+			<set name="school">Abjuration</set>
+			<set name="time">1 minute</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">ten gold coins which have sat in a fire for at least one hour</set>
+			<set name="duration">24 hours</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+		<element name="Storm Shield" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_KINETIC_JAUNT">
+		<supports>Druid, Sorcerer, Wizard</supports>
+		<description>
+			<p>Thin crackles of lightning wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell early by using an action to dismiss it.</p>
+			<p class="indent">The lightning grants you resistance to lightning damage. In addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with lightning. The attacker takes 2d8 lightning damage.</p>
+		</description>
+		<setters>
+			<set name="level">4</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a bit of fur and a rod of amber, crystal, or glass</set>
+			<set name="duration">10 minutes</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+		<element name="Telekinetic Thrust" type="Spell" source="War of the Burning Sky" id="ID_HOMEBREW_ZENCHA70_WOTBS_SPELL_KINETIC_JAUNT">
+		<supports>Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>You gain the ability to shove a creature or object by thought. When you cast the spell, you can exert your will on one creature or object that you can see within range causing the appropriate affect below. A creature or object you successfully move travels 30 feet directly away from you. If it hits a solid object such as a wall, it takes 1d6 bludgeoning damage for every 10 feet of movement or portion thereof. If it would hit another creature or object the damage is split between the shoved creature or object and the hit creature or object. A creature in the path of the shoved creature or object must succeed on a Dexterity saving throw, avoiding the shoved creature or object on a success or being hit by the missile and knocked prone.</p>
+			<p class="indent"><b>Creature.</b> You can try to move a Large or smaller creature. Make an ability check with your spellcasting ability contested by the creature’s Strength check. If you win the contest, you move the creature up to 30 feet directly away from you and it is knocked prone.</p>
+			<p class="indent"><b>Object.</b> You can try to move an object that weights up to 500 pounds. If the object isn’t being worn or carried, you automatically move it up to 30 feet directly away from you.</p>
+			<p class="indent">If the object is worn or carried by a creature, you must make an ability check with your spellcasting ability contested by that creature’s Strength check. If you succeed, you pull the object away from that creature and move it 30 feet directly away from you.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 5th level or higher, you can affect one additional creature or object for each slot level above 4th. The creatures or objects must all be within 10 feet of each other.</p>
+		</description>
+		<setters>
+			<set name="level">4</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="duration">Instantaneous</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+</elements>
