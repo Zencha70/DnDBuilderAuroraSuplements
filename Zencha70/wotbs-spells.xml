@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Spells from War of the Burning Sky</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="wotbs-spells.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/wotbs-spells.xml" />
 		</update>
 	</info>
@@ -19,7 +19,7 @@
 			<set name="range">Self</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
-			<set name="duration">concentration, up to 1 minute</set>
+			<set name="duration">Concentration, up to 1 minute</set>
 			<set name="isConcentration">true</set>
 		</setters>
 	</element>
